@@ -1,0 +1,405 @@
+/* ============================================
+   VJ SECURITY SERVICES — ANIMATIONS
+   Netherlands / Europe ambient light effects
+   Add: <link rel="stylesheet" href="animations.css">
+   in <head>, AFTER style.css
+   ============================================ */
+
+
+/* ============================================
+   1. FLOATING PARTICLES CANVAS
+   (injected via animations.js)
+   ============================================ */
+
+#vj-particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.45;
+}
+
+
+/* ============================================
+   2. HERO — AMBIENT LIGHT PULSE
+   ============================================ */
+
+.hero-bg::after {
+    content: '';
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(201, 162, 39, 0.08) 0%,
+        rgba(30, 58, 95, 0.12) 40%,
+        transparent 70%
+    );
+    border-radius: 50%;
+    animation: heroPulse 6s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 1;
+}
+
+@keyframes heroPulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.6;
+    }
+    50% {
+        transform: scale(1.18);
+        opacity: 1;
+    }
+}
+
+/* Hero title shimmer */
+.hero-title {
+    background: linear-gradient(
+        90deg,
+        #ffffff 0%,
+        #e8d5a3 40%,
+        #c9a227 55%,
+        #e8d5a3 70%,
+        #ffffff 100%
+    );
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: titleShimmer 5s linear infinite;
+}
+
+@keyframes titleShimmer {
+    0%   { background-position: 200% center; }
+    100% { background-position: -200% center; }
+}
+
+/* Tag badge soft pulse */
+.tag-badge {
+    animation: fadeInUp 0.8s ease-out 0.2s both, badgePulse 4s ease-in-out 1.5s infinite;
+}
+
+@keyframes badgePulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(201, 162, 39, 0); }
+    50%       { box-shadow: 0 0 16px 4px rgba(201, 162, 39, 0.18); }
+}
+
+/* Trust badge float (enhance existing) */
+.trust-badge {
+    animation: float 3s ease-in-out infinite, trustGlow 5s ease-in-out infinite !important;
+}
+
+@keyframes trustGlow {
+    0%, 100% { border-color: rgba(255,255,255,0.15); }
+    50%       { border-color: rgba(201, 162, 39, 0.4); box-shadow: 0 0 20px rgba(201, 162, 39, 0.15); }
+}
+
+
+/* ============================================
+   3. SCROLL REVEAL — SECTIONS FADE IN
+   (.vj-reveal class added by JS on scroll)
+   ============================================ */
+
+.vj-reveal {
+    opacity: 0;
+    transform: translateY(32px);
+    transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1),
+                transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.vj-reveal.vj-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.vj-reveal-left {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1),
+                transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.vj-reveal-left.vj-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.vj-reveal-right {
+    opacity: 0;
+    transform: translateX(30px);
+    transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1),
+                transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.vj-reveal-right.vj-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+/* ============================================
+   4. ABOUT SECTION — SHIELD GLOW
+   ============================================ */
+
+.about-right img {
+    filter: drop-shadow(0 0 24px rgba(201, 162, 39, 0.15));
+    animation: imgGlow 5s ease-in-out infinite;
+}
+
+@keyframes imgGlow {
+    0%, 100% { filter: drop-shadow(0 0 16px rgba(201, 162, 39, 0.1)); }
+    50%       { filter: drop-shadow(0 0 36px rgba(201, 162, 39, 0.28)); }
+}
+
+.about-trusted-badge {
+    animation: badgeFloat 4s ease-in-out infinite;
+}
+
+@keyframes badgeFloat {
+    0%, 100% { transform: translateY(0); }
+    50%       { transform: translateY(-6px); }
+}
+
+
+/* ============================================
+   5. STATS — GOLD LINE SWEEP
+   ============================================ */
+
+.stats-section::after {
+    animation: goldSweep 3s linear infinite !important;
+}
+
+@keyframes goldSweep {
+    0%   { background-position: -200% center; }
+    100% { background-position: 200% center; }
+}
+
+/* Stat value count-up glow */
+.stat-value {
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.stat-item:hover .stat-value {
+    text-shadow: 0 0 20px rgba(201, 162, 39, 0.5);
+}
+
+
+/* ============================================
+   8. AREA CARDS — LIGHT RAY ON HOVER
+   ============================================ */
+
+
+/* ============================================
+   8. AREA CARDS — LIGHT RAY ON HOVER
+   ============================================ */
+
+.area-card::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 80%;
+    height: 200%;
+    background: linear-gradient(
+        105deg,
+        transparent 40%,
+        rgba(255, 255, 255, 0.04) 50%,
+        transparent 60%
+    );
+    transform: skewX(-15deg) translateX(-100%);
+    transition: transform 0.7s ease;
+    z-index: 3;
+    pointer-events: none;
+}
+
+.area-card:not(.active):hover::after {
+    transform: skewX(-15deg) translateX(350%);
+}
+
+/* Active card subtle gold border */
+.area-card.active {
+    border-color: rgba(201, 162, 39, 0.3) !important;
+    box-shadow: 0 0 30px rgba(201, 162, 39, 0.08);
+}
+
+/* View map button pulse */
+.area-view-map-btn {
+    animation: mapBtnPulse 3s ease-in-out infinite;
+}
+
+@keyframes mapBtnPulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(201, 162, 39, 0); }
+    50%       { box-shadow: 0 0 12px 3px rgba(201, 162, 39, 0.25); }
+}
+
+
+/* ============================================
+   9. QUOTE / CONTACT — AMBIENT RADIAL GLOW
+   ============================================ */
+
+.quote-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.quote-card::after {
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    right: -100px;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(30, 58, 95, 0.3) 0%,
+        transparent 65%
+    );
+    pointer-events: none;
+    z-index: 0;
+    animation: quoteGlow 7s ease-in-out infinite;
+}
+
+@keyframes quoteGlow {
+    0%, 100% { opacity: 0.5; transform: scale(1); }
+    50%       { opacity: 1;   transform: scale(1.15); }
+}
+
+/* Input focus ring animation */
+.quote-input:focus {
+    animation: inputFocus 0.3s ease forwards;
+}
+
+@keyframes inputFocus {
+    from { box-shadow: 0 0 0 0 rgba(201, 162, 39, 0.15); }
+    to   { box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.07); }
+}
+
+/* Submit button shine */
+.quote-submit-btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.quote-submit-btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    transition: left 0.5s ease;
+}
+
+.quote-submit-btn:hover::after {
+    left: 150%;
+}
+
+/* Contact icon hover glow */
+.contact-icon-box {
+    transition: border-color 0.3s ease, background 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.contact-info-item:hover .contact-icon-box {
+    box-shadow: 0 0 16px rgba(201, 162, 39, 0.2) !important;
+}
+
+
+/* ============================================
+   10. FAQ — ANSWER REVEAL LIGHT
+   ============================================ */
+
+.faq-item.active .faq-q {
+    background: rgba(201, 162, 39, 0.04);
+}
+
+.faq-num {
+    transition: text-shadow 0.3s ease;
+}
+
+.faq-item.active .faq-num {
+    text-shadow: 0 0 12px rgba(201, 162, 39, 0.5);
+}
+
+
+/* ============================================
+   11. FOOTER CTA BOX — CORNER GLOW
+   ============================================ */
+
+.footer-cta-box::after {
+    content: '';
+    position: absolute;
+    top: -60px;
+    left: -60px;
+    width: 240px;
+    height: 240px;
+    background: radial-gradient(
+        ellipse at center,
+        rgba(30, 58, 95, 0.5) 0%,
+        transparent 65%
+    );
+    pointer-events: none;
+    z-index: 0;
+    animation: ctaCornerGlow 6s ease-in-out infinite;
+}
+
+@keyframes ctaCornerGlow {
+    0%, 100% { opacity: 0.5; }
+    50%       { opacity: 1; }
+}
+
+
+/* ============================================
+   12. NAV LINKS — GOLD UNDERLINE SLIDE
+   ============================================ */
+
+.nav-links a::after {
+    background: linear-gradient(90deg, var(--accent-gold), #4a90e2) !important;
+    height: 2px !important;
+}
+
+/* Logo subtle entrance */
+.logo {
+    animation: logoEntrance 0.8s ease-out both;
+}
+
+@keyframes logoEntrance {
+    from { opacity: 0; transform: translateX(-16px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+
+
+/* ============================================
+   13. SCROLL-TO-TOP — GOLD GLOW PULSE
+   ============================================ */
+
+.scroll-to-top.visible .mouse-icon {
+    box-shadow: 0 0 12px rgba(201, 162, 39, 0.25);
+    border-color: rgba(201, 162, 39, 0.6);
+    transition: all 0.4s ease;
+}
+
+
+/* ============================================
+   REDUCE MOTION — Accessibility
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
