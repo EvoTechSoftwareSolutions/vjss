@@ -11,6 +11,10 @@
    (injected via animations.js)
    ============================================ */
 
+html{
+    scroll-behavior: smooth;
+}
+
 #vj-particles {
     position: fixed;
     top: 0;
@@ -363,10 +367,10 @@
    12. NAV LINKS — GOLD UNDERLINE SLIDE
    ============================================ */
 
-.nav-links a::after {
+/* .nav-links a::after {
     background: linear-gradient(90deg, var(--accent-gold), #4a90e2) !important;
     height: 2px !important;
-}
+} */
 
 /* Logo subtle entrance */
 .logo {

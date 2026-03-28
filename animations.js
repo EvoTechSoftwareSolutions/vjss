@@ -157,7 +157,7 @@
         'width:280px',
         'height:280px',
         'border-radius:50%',
-        'background:radial-gradient(ellipse at center, rgba(201,162,39,0.055) 0%, transparent 65%)',
+        'background:radial-gradient(ellipse at center, rgba(201, 163, 39, 0.1) 0%, transparent 65%)',
         'transform:translate(-50%,-50%)',
         'transition:opacity 0.4s ease',
         'opacity:0',
@@ -260,13 +260,15 @@
         const y = window.scrollY;
 
         if (y > 50) {
-            nav.style.backdropFilter = 'blur(20px)';
-            nav.style.background = 'rgba(10, 15, 26, 0.92)';
+            nav.style.top = '0';
+            nav.style.backdropFilter = 'blur(10px)';
+            // nav.style.background = 'rgba(10, 15, 26, 0.92)';
             nav.style.borderRadius = '0 0 20px 20px';
             nav.style.paddingTop = '0.35rem';
             nav.style.paddingBottom = '0.35rem';
-            nav.style.borderBottom = '1px solid rgba(201, 162, 39, 0.12)';
+            // nav.style.borderBottom = '1px solid rgba(201, 162, 39, 0.12)';
         } else {
+            nav.style.top = '12px';
             nav.style.backdropFilter = '';
             nav.style.background = '';
             nav.style.borderRadius = '';
