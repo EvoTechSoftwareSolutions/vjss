@@ -47,11 +47,11 @@
 
     for (let i = 0; i < PARTICLE_COUNT; i++) {
         particles.push({
-            x:     rand(0, W),
-            y:     rand(0, H),
-            r:     rand(0.4, 1.8),
-            dx:    rand(-0.12, 0.12),
-            dy:    rand(-0.1, -0.3),   // drift upward slowly
+            x: rand(0, W),
+            y: rand(0, H),
+            r: rand(0.4, 1.8),
+            dx: rand(-0.12, 0.12),
+            dy: rand(-0.1, -0.3),   // drift upward slowly
             alpha: rand(0.08, 0.45),
             dAlpha: rand(0.001, 0.004),
             alphaDir: Math.random() < 0.5 ? 1 : -1,
@@ -75,8 +75,8 @@
             p.y += p.dy;
 
             // Wrap around
-            if (p.y < -5)  p.y = H + 5;
-            if (p.x < -5)  p.x = W + 5;
+            if (p.y < -5) p.y = H + 5;
+            if (p.x < -5) p.x = W + 5;
             if (p.x > W + 5) p.x = -5;
 
             // Draw
@@ -100,27 +100,27 @@
 (function () {
     // Elements to reveal on scroll
     const revealTargets = [
-        { selector: '.about-left',        cls: 'vj-reveal-left' },
-        { selector: '.about-right',       cls: 'vj-reveal-right' },
+        { selector: '.about-left', cls: 'vj-reveal-left' },
+        { selector: '.about-right', cls: 'vj-reveal-right' },
         { selector: '.about-license-box', cls: 'vj-reveal' },
-        { selector: '.stat-item',         cls: 'vj-reveal' },
-        { selector: '.service-card',      cls: 'vj-reveal' },
-        { selector: '.services-intro',    cls: 'vj-reveal-left' },
-        { selector: '.quote-left',        cls: 'vj-reveal-left' },
-        { selector: '.quote-right',       cls: 'vj-reveal-right' },
+        { selector: '.stat-item', cls: 'vj-reveal' },
+        { selector: '.service-card', cls: 'vj-reveal' },
+        { selector: '.services-intro', cls: 'vj-reveal-left' },
+        { selector: '.quote-left', cls: 'vj-reveal-left' },
+        { selector: '.quote-right', cls: 'vj-reveal-right' },
         { selector: '.contact-info-left', cls: 'vj-reveal-left' },
-        { selector: '.contact-info-right',cls: 'vj-reveal-right' },
-        { selector: '.faq-item',          cls: 'vj-reveal' },
-        { selector: '.areas-header',      cls: 'vj-reveal' },
-        { selector: '.areas-info-bar',    cls: 'vj-reveal' },
-        { selector: '.footer-cta-box',    cls: 'vj-reveal' },
+        { selector: '.contact-info-right', cls: 'vj-reveal-right' },
+        { selector: '.faq-item', cls: 'vj-reveal' },
+        { selector: '.areas-header', cls: 'vj-reveal' },
+        { selector: '.areas-info-bar', cls: 'vj-reveal' },
+        { selector: '.footer-cta-box', cls: 'vj-reveal' },
     ];
 
     revealTargets.forEach(function (t) {
         document.querySelectorAll(t.selector).forEach(function (el, i) {
             el.classList.add(t.cls);
             // Stagger delay for lists
-            if (['stat-item','service-card','faq-item'].some(s => t.selector.includes(s))) {
+            if (['stat-item', 'service-card', 'faq-item'].some(s => t.selector.includes(s))) {
                 el.style.transitionDelay = (i * 0.08) + 's';
             }
         });
@@ -189,7 +189,7 @@
         glowX += (mouseX - glowX) * 0.06;
         glowY += (mouseY - glowY) * 0.06;
         glow.style.left = glowX + 'px';
-        glow.style.top  = glowY + 'px';
+        glow.style.top = glowY + 'px';
         requestAnimationFrame(followCursor);
     }
 
@@ -204,14 +204,14 @@
 
 (function () {
     const sectionGlows = {
-        'about':        'rgba(30, 58, 95, 0.12)',
-        'stats':        'rgba(201, 162, 39, 0.06)',
-        'services':     'rgba(30, 58, 95, 0.1)',
-        'approach':     'rgba(4, 55, 117, 0.15)',
-        'service-areas':'rgba(201, 162, 39, 0.07)',
-        'booking':      'rgba(12, 21, 40, 0.2)',
-        'contact':      'rgba(30, 58, 95, 0.12)',
-        'faq':          'rgba(11, 25, 37, 0.15)',
+        'about': 'rgba(30, 58, 95, 0.12)',
+        'stats': 'rgba(201, 162, 39, 0.06)',
+        'services': 'rgba(30, 58, 95, 0.1)',
+        'approach': 'rgba(4, 55, 117, 0.15)',
+        'service-areas': 'rgba(201, 162, 39, 0.07)',
+        'booking': 'rgba(12, 21, 40, 0.2)',
+        'contact': 'rgba(30, 58, 95, 0.12)',
+        'faq': 'rgba(11, 25, 37, 0.15)',
     };
 
     const overlay = document.createElement('div');
@@ -254,20 +254,30 @@
     const nav = document.getElementById('navbar');
     if (!nav) return;
 
-    let lastY = 0;
+    const navLogo = document.querySelector('.navbar .navbar-logo');
+    const callBtn = document.querySelector('.nav-cta .btn-outline');
 
     window.addEventListener('scroll', function () {
         const y = window.scrollY;
 
         if (y > 50) {
+            // SCROLL KARADDI - light/white theme
             nav.style.top = '0';
             nav.style.backdropFilter = 'blur(10px)';
-            // nav.style.background = 'rgba(10, 15, 26, 0.92)';
             nav.style.borderRadius = '0 0 20px 20px';
             nav.style.paddingTop = '0.35rem';
             nav.style.paddingBottom = '0.35rem';
-            // nav.style.borderBottom = '1px solid rgba(201, 162, 39, 0.12)';
+            if (navLogo) navLogo.src = 'resources/footer/vj.png';
+            
+            // Button light theme
+            if (callBtn) {
+                callBtn.style.borderColor = 'rgba(255, 255, 255, 0.4)';
+                callBtn.style.color = 'rgba(255, 255, 255, 0.9)';
+                callBtn.style.background = rgba(255, 255, 255, 0.12);
+            }
+            
         } else {
+            // TOP EKE THIYEDDIMA - dark theme
             nav.style.top = '12px';
             nav.style.backdropFilter = '';
             nav.style.background = '';
@@ -275,8 +285,23 @@
             nav.style.paddingTop = '';
             nav.style.paddingBottom = '';
             nav.style.borderBottom = '';
+            if (navLogo) navLogo.src = 'resources/hero/vj.png';
+            
+            // Button dark theme (top eke thiyeddima)
+            if (callBtn) {
+                callBtn.style.borderColor = 'var(--text-dark)';  // #173A57
+                callBtn.style.color = 'var(--text-dark)';        // #173A57
+                callBtn.style.background = rgba(7, 92, 161, 0.12);
+            }
         }
-
-        lastY = y;
     });
+    
+    // Initial load ekepi top eke thiyenawa nisa dark theme set karanna
+    if (callBtn) {
+        callBtn.style.borderColor = 'var(--text-dark)';
+        callBtn.style.color = 'var(--text-dark)';
+        callBtn.style.background = rgba(7, 92, 161, 0.12);
+    }
 })();
+
+
