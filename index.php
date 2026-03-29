@@ -23,7 +23,7 @@
 <body>
     <!-- Scroll to Top Button -->
     <div class="scroll-to-top" id="scrollToTop" onclick="scrollToTop()">
-        <div class="scroll-text">Top</div>
+        <div class="scroll-text topic">Top</div>
         <div class="mouse-icon">
             <div class="mouse-wheel"></div>
         </div>
@@ -51,24 +51,24 @@
 
                 <div class="nav-wrapper">
                     <ul class="nav-links" id="navLinks">
-                        <li><a href="#home" class="active">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#approach">Approach</a></li>
-                        <li><a href="#service-areas">Service&nbsp;Area</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#home" class="active topic">Home</a></li>
+                        <li><a href="#about" class="topic">About</a></li>
+                        <li><a href="#services" class="topic">Services</a></li>
+                        <li><a href="#approach" class="topic">Approach</a></li>
+                        <li><a href="#service-areas" class="topic">Service&nbsp;Area</a></li>
+                        <li><a href="#contact" class="topic">Contact</a></li>
                     </ul>
                 </div>
 
                 <div class="nav-cta">
-                    <a href="tel:+1234567890" class="btn btn-outline">
+                    <a href="tel:+1234567890" class="btn btn-outline boldTopic">
                         <svg viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2">
                             <path
                                 d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                         </svg>
                         Call Now
                     </a>
-                    <a href="#contact" class="btn btn-gold">Request Quote</a>
+                    <a href="#contact" class="btn btn-gold boldTopic">Request Quote</a>
                 </div>
 
                 <div class="menu-toggle" id="menuToggle">
@@ -86,14 +86,14 @@
                     </svg>
                 </div>
 
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#approach">Approach</a>
-                <a href="#service-areas">Service Area</a>
-                <a href="#contact">Contact</a>
-                <a href="tel:+1234567890" class="btn btn-outline">Call Now</a>
-                <a href="#contact" class="btn btn-gold">Request Quote</a>
+                <a href="#home" class="topic">Home</a>
+                <a href="#about" class="topic">About</a>
+                <a href="#services" class="topic">Services</a>
+                <a href="#approach" class="topic">Approach</a>
+                <a href="#service-areas" class="topic">Service Area</a>
+                <a href="#contact" class="topic">Contact</a>
+                <a href="tel:+1234567890" class="btn btn-outline boldTopic">Call Now</a>
+                <a href="#contact" class="btn btn-gold boldTopic">Request Quote</a>
             </div>
 
             <!-- Menu Overlay -->
@@ -107,13 +107,13 @@
 
                 <div class="hero-content">
                     <div class="hero-left">
-                        <div class="tag-badge">
+                        <div class="tag-badge boldTopic">
                             Licensed Provider • ND7924 • Wpbr Compliant
                         </div>
 
-                        <h1 class="hero-title">VJ Security Services</h1>
+                        <h1 class="hero-title boldTopic">VJ Security Services</h1>
 
-                        <p class="hero-description">
+                        <p class="hero-description para">
                             Security with control, calm and professional presence. We protect what matters most your
                             people, assets and events.
                         </p>
@@ -122,19 +122,19 @@
 
                 <div class="hero-cta-panel">
                     <div class="hero-buttons">
-                        <a href="tel:+1234567890" class="btn btn-call">
+                        <a href="tel:+1234567890" class="btn btn-call boldTopic">
                             <svg viewBox="0 0 24 24" fill="currentColor" stroke="none" stroke-width="2">
                                 <path
                                     d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                             </svg>
                             Call Now
                         </a>
-                        <a href="#contact" class="btn btn-gold">Request Quote</a>
+                        <a href="#contact" class="btn btn-gold boldTopic">Request Quote</a>
                     </div>
                 </div>
 
                 <div class="trust-badge-container">
-                    <div class="trust-badge">
+                    <div class="trust-badge boldTopic">
                         Trusted • Licensed • Professional
                     </div>
                 </div>
@@ -149,29 +149,29 @@
             <!-- Left: Text Content -->
             <div class="about-left">
                 <div class="about-label">
-                    <span class="about-label-text">ABOUT US</span>
+                    <span class="about-label-text label">ABOUT US</span>
                     <div class="about-label-lines">
                         <span class="about-label-line"></span>
                         <span class="about-label-line"></span>
                     </div>
                 </div>
 
-                <h2 class="about-title">About VJ Security Services</h2>
+                <h2 class="about-title topic">About VJ Security Services</h2>
 
-                <p class="about-body">
+                <p class="about-body para">
                     VJ Security Services is a licensed security company based in the Netherlands, fully compliant
                     with the Private Security Industry Act (Wpbr). With our registration number ND7924, we operate
                     with complete transparency and within the legal frameworks governing private security.
                 </p>
 
-                <p class="about-body">
+                <p class="about-body para">
                     We specialize in professional, human-centered security. Our team consists of trained, certified
                     security officers who are selected not only for their expertise, but for their calm demeanor,
                     situational awareness and professional conduct.
                 </p>
 
                 <div class="about-license-box">
-                    <span class="about-license-text">
+                    <span class="about-license-text para">
                         <strong>License: ND7924</strong> — We are fully registered and compliant with the Wpbr
                         (Wet particuliere beveiligingsorganisaties en recherchebureaus), the Dutch legal framework
                         governing all private security activities.
@@ -182,8 +182,8 @@
             <!-- Right: Shield + Badge -->
             <div class="about-right">
                 <div class="about-trusted-badge">
-                    <span class="about-trusted-percent">100%</span>
-                    <span class="about-trusted-label">Trusted</span>
+                    <span class="about-trusted-percent boldTopic">100%</span>
+                    <span class="about-trusted-label boldTopic">Trusted</span>
                 </div>
 
                 <!-- <div class="about-shield-wrap">
@@ -209,29 +209,29 @@
         <div class="stats-grid">
 
             <div class="stat-item">
-                <span class="stat-value" data-target="7924" data-prefix="ND">ND0</span>
-                <span class="stat-label">Official License Number</span>
+                <span class="stat-value boldTopic" data-target="7924" data-prefix="ND">ND0</span>
+                <span class="stat-label para">Official License Number</span>
             </div>
 
             <div class="stat-divider"></div>
 
             <div class="stat-item">
-                <span class="stat-value" data-target="100" data-suffix="%">0%</span>
-                <span class="stat-label">Wpbr Compliant</span>
+                <span class="stat-value boldTopic" data-target="100" data-suffix="%">0%</span>
+                <span class="stat-label para">Wpbr Compliant</span>
             </div>
 
             <div class="stat-divider"></div>
 
             <div class="stat-item">
-                <span class="stat-value" data-target="8" data-pad="2">00</span>
-                <span class="stat-label">Security Services</span>
+                <span class="stat-value boldTopic" data-target="8" data-pad="2">00</span>
+                <span class="stat-label para">Security Services</span>
             </div>
 
             <div class="stat-divider"></div>
 
             <div class="stat-item">
-                <span class="stat-value" data-target="5" data-pad="2">00</span>
-                <span class="stat-label">Provinces Covered</span>
+                <span class="stat-value boldTopic" data-target="5" data-pad="2">00</span>
+                <span class="stat-label para">Provinces Covered</span>
             </div>
 
         </div>
@@ -245,14 +245,14 @@
                 <!-- Text Block (spans 2×1) -->
                 <div class="services-intro">
                     <div class="services-label">
-                        <span class="services-label-text">SERVICES</span>
+                        <span class="services-label-text label">SERVICES</span>
                         <div class="services-label-lines">
                             <span class="services-label-line"></span>
                             <span class="services-label-line"></span>
                         </div>
                     </div>
-                    <h2 class="services-title">Services We Supply</h2>
-                    <p class="services-description">
+                    <h2 class="services-title topic">Services We Supply</h2>
+                    <p class="services-description para">
                         We offer a comprehensive range of professional security services tailored to the needs of
                         businesses, event organizers, private individuals and public institutions across the
                         Netherlands.
@@ -269,9 +269,9 @@
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title">Object Security</h3>
+                            <h3 class="service-card-title boldTopic">Object Security</h3>
                         </div>
-                        <p class="service-card-desc">
+                        <p class="service-card-desc para">
                             Professional protection of commercial and industrial premises, including access management
                             and patrols.
                         </p>
@@ -287,9 +287,9 @@
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title">Event Security</h3>
+                            <h3 class="service-card-title boldTopic">Event Security</h3>
                         </div>
-                        <p class="service-card-desc">
+                        <p class="service-card-desc para">
                             Comprehensive security solutions for concerts, festivals, corporate events and private
                             gatherings.
                         </p>
@@ -305,9 +305,9 @@
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title">Personal Security</h3>
+                            <h3 class="service-card-title boldTopic">Personal Security</h3>
                         </div>
-                        <p class="service-card-desc">
+                        <p class="service-card-desc para">
                             Dedicated protection services for VIPs, executives and individuals requiring personal
                             safety.
                         </p>
@@ -323,9 +323,9 @@
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title">Fire Watch</h3>
+                            <h3 class="service-card-title boldTopic">Fire Watch</h3>
                         </div>
-                        <p class="service-card-desc">
+                        <p class="service-card-desc para">
                             Trained fire watch personnel to monitor premises and ensure rapid response to fire hazards.
                         </p>
                     </div>
@@ -340,9 +340,9 @@
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title">Retail Surveillance</h3>
+                            <h3 class="service-card-title boldTopic">Retail Surveillance</h3>
                         </div>
-                        <p class="service-card-desc">
+                        <p class="service-card-desc para">
                             Loss prevention and customer safety services for retail stores and shopping centers.
                         </p>
                     </div>
@@ -357,9 +357,9 @@
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title">Access Control</h3>
+                            <h3 class="service-card-title boldTopic">Access Control</h3>
                         </div>
-                        <p class="service-card-desc">
+                        <p class="service-card-desc para">
                             Professional management of entry points, visitor verification and secure area monitoring.
                         </p>
                     </div>
@@ -374,9 +374,9 @@
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title">Mobile Patrol</h3>
+                            <h3 class="service-card-title boldTopic">Mobile Patrol</h3>
                         </div>
-                        <p class="service-card-desc">
+                        <p class="service-card-desc para">
                             Regular vehicle patrols covering multiple locations with rapid incident response capability.
                         </p>
                     </div>
@@ -391,9 +391,9 @@
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title">Crowd&nbsp;Management</h3>
+                            <h3 class="service-card-title boldTopic">Crowd&nbsp;Management</h3>
                         </div>
-                        <p class="service-card-desc">
+                        <p class="service-card-desc para">
                             Expert crowd flow management and safety protocols for large public gatherings and venues.
                         </p>
                     </div>
@@ -415,10 +415,10 @@
 
                 <!-- Card 01 -->
                 <div class="approach-card-wrapper" data-approach-card>
-                    <div class="approach-number-box"><span class="approach-number">01</span></div>
+                    <div class="approach-number-box"><span class="approach-number boldTopic">01</span></div>
                     <div class="approach-content-card">
-                        <div class="approach-card-title">Intake &amp; Risk Assessment</div>
-                        <div class="approach-card-desc">We Meet With You To Understand Your Environment, Risks, And
+                        <div class="approach-card-title topic">Intake &amp; Risk Assessment</div>
+                        <div class="approach-card-desc para">We Meet With You To Understand Your Environment, Risks, And
                             Objectives. Every Security Plan Starts With A Thorough Assessment Of Threats,
                             Vulnerabilities And Specific Requirements.</div>
                         <div class="approach-icon-btn">
@@ -433,14 +433,14 @@
                 <!-- Section Header -->
                 <div class="approach-header">
                     <div class="approach-label">
-                        <span class="approach-label-text">Approach</span>
+                        <span class="approach-label-text label">Approach</span>
                         <div class="approach-label-lines">
                             <span class="approach-label-line"></span>
                             <span class="approach-label-line"></span>
                         </div>
                     </div>
-                    <h2 class="approach-section-title">Our Approach</h2>
-                    <p class="approach-section-desc">Every security assignment begins with understanding. We take a
+                    <h2 class="approach-section-title topic">Our Approach</h2>
+                    <p class="approach-section-desc para">Every security assignment begins with understanding. We take a
                         structured, three-phase approach to every engagement — ensuring nothing is left to chance.</p>
                 </div>
 
@@ -449,10 +449,10 @@
             <!-- MIDDLE ROW: Card 02 right -->
             <div class="approach-mid-row">
                 <div class="approach-card-wrapper" data-approach-card>
-                    <div class="approach-number-box"><span class="approach-number">02</span></div>
+                    <div class="approach-number-box"><span class="approach-number boldTopic">02</span></div>
                     <div class="approach-content-card">
-                        <div class="approach-card-title">Planning &amp; Briefing</div>
-                        <div class="approach-card-desc">Based On The Assessment, We Develop A Tailored Security Plan.
+                        <div class="approach-card-title topic">Planning &amp; Briefing</div>
+                        <div class="approach-card-desc para">Based On The Assessment, We Develop A Tailored Security Plan.
                             All Personnel Are Thoroughly Briefed With Clear Protocols, Communication Structures And Role
                             Assignments.</div>
                         <div class="approach-icon-btn">
@@ -469,10 +469,10 @@
             <!-- BOTTOM ROW: Card 03 left -->
             <div class="approach-bot-row">
                 <div class="approach-card-wrapper" data-approach-card>
-                    <div class="approach-number-box"><span class="approach-number">03</span></div>
+                    <div class="approach-number-box"><span class="approach-number boldTopic">03</span></div>
                     <div class="approach-content-card">
-                        <div class="approach-card-title">Execution &amp; Feedback</div>
-                        <div class="approach-card-desc">Our Team Executes The Plan With Precision And Calm Authority.
+                        <div class="approach-card-title topic">Execution &amp; Feedback</div>
+                        <div class="approach-card-desc para">Our Team Executes The Plan With Precision And Calm Authority.
                             After Each Assignment, We Provide A Structured Debrief And Feedback Report For Continuous
                             Improvement.</div>
                         <div class="approach-icon-btn">
@@ -497,14 +497,14 @@
             <!-- Header -->
             <div class="areas-header">
                 <div class="areas-label">
-                    <span class="areas-label-text">AREAS</span>
+                    <span class="areas-label-text label">AREAS</span>
                     <div class="areas-label-lines">
                         <span class="areas-label-line"></span>
                         <span class="areas-label-line"></span>
                     </div>
                 </div>
-                <h2 class="areas-title">Service Areas We Available</h2>
-                <p class="areas-desc">VJ Security Services operates across multiple provinces in the Netherlands,
+                <h2 class="areas-title topic">Service Areas We Available</h2>
+                <p class="areas-desc para">VJ Security Services operates across multiple provinces in the Netherlands,
                     providing licensed security services to clients in both urban and rural settings.</p>
             </div>
 
@@ -515,7 +515,7 @@
                     data-map="https://www.google.com/maps/search/Groningen,+Netherlands">
                     <div class="area-card-bg" style="background-image:url('resources/Untitled.png')"></div>
                     <div class="area-card-overlay"></div>
-                    <div class="area-card-collapsed-label">GRONINGEN</div>
+                    <div class="area-card-collapsed-label topic">GRONINGEN</div>
                     <div class="area-card-expanded">
                         <div class="area-card-title-row">
                             <div class="area-card-icon">
@@ -525,10 +525,10 @@
                                     <circle cx="12" cy="10" r="3" />
                                 </svg>
                             </div>
-                            <h3 class="area-card-name">GRONINGEN</h3>
+                            <h3 class="area-card-name boldTopic">GRONINGEN</h3>
                         </div>
-                        <p class="area-card-subdesc">Security services throughout the province of Groningen</p>
-                        <a class="area-view-map-btn" href="https://www.google.com/maps/search/Groningen,+Netherlands"
+                        <p class="area-card-subdesc para">Security services throughout the province of Groningen</p>
+                        <a class="area-view-map-btn boldTopic" href="https://www.google.com/maps/search/Groningen,+Netherlands"
                             target="_blank">View Map</a>
                     </div>
                 </div>
@@ -537,7 +537,7 @@
                     data-map="https://www.google.com/maps/search/Drenthe,+Netherlands">
                     <div class="area-card-bg" style="background-image:url('resources/Untitled\ \(1\).png')"></div>
                     <div class="area-card-overlay"></div>
-                    <div class="area-card-collapsed-label">DRENTHE</div>
+                    <div class="area-card-collapsed-label topic">DRENTHE</div>
                     <div class="area-card-expanded">
                         <div class="area-card-title-row">
                             <div class="area-card-icon">
@@ -547,10 +547,10 @@
                                     <circle cx="12" cy="10" r="3" />
                                 </svg>
                             </div>
-                            <h3 class="area-card-name">DRENTHE</h3>
+                            <h3 class="area-card-name boldTopic">DRENTHE</h3>
                         </div>
-                        <p class="area-card-subdesc">Security services throughout the province of Drenthe</p>
-                        <a class="area-view-map-btn" href="https://www.google.com/maps/search/Drenthe,+Netherlands"
+                        <p class="area-card-subdesc para">Security services throughout the province of Drenthe</p>
+                        <a class="area-view-map-btn boldTopic" href="https://www.google.com/maps/search/Drenthe,+Netherlands"
                             target="_blank">View Map</a>
                     </div>
                 </div>
@@ -559,7 +559,7 @@
                     data-map="https://www.google.com/maps/search/Friesland,+Netherlands">
                     <div class="area-card-bg" style="background-image:url('resources/Untitled\ \(2\).png')"></div>
                     <div class="area-card-overlay"></div>
-                    <div class="area-card-collapsed-label">FRIESLAND</div>
+                    <div class="area-card-collapsed-label topic">FRIESLAND</div>
                     <div class="area-card-expanded">
                         <div class="area-card-title-row">
                             <div class="area-card-icon">
@@ -569,10 +569,10 @@
                                     <circle cx="12" cy="10" r="3" />
                                 </svg>
                             </div>
-                            <h3 class="area-card-name">FRIESLAND</h3>
+                            <h3 class="area-card-name boldTopic">FRIESLAND</h3>
                         </div>
-                        <p class="area-card-subdesc">Security services throughout the province of Friesland</p>
-                        <a class="area-view-map-btn" href="https://www.google.com/maps/search/Friesland,+Netherlands"
+                        <p class="area-card-subdesc para">Security services throughout the province of Friesland</p>
+                        <a class="area-view-map-btn boldTopic" href="https://www.google.com/maps/search/Friesland,+Netherlands"
                             target="_blank">View Map</a>
                     </div>
                 </div>
@@ -581,7 +581,7 @@
                     data-map="https://www.google.com/maps/search/Overijssel,+Netherlands">
                     <div class="area-card-bg" style="background-image:url('resources/Untitled\ \(3\).png')"></div>
                     <div class="area-card-overlay"></div>
-                    <div class="area-card-collapsed-label">OVERIJSSEL</div>
+                    <div class="area-card-collapsed-label topic">OVERIJSSEL</div>
                     <div class="area-card-expanded">
                         <div class="area-card-title-row">
                             <div class="area-card-icon">
@@ -591,10 +591,10 @@
                                     <circle cx="12" cy="10" r="3" />
                                 </svg>
                             </div>
-                            <h3 class="area-card-name">OVERIJSSEL</h3>
+                            <h3 class="area-card-name boldTopic">OVERIJSSEL</h3>
                         </div>
-                        <p class="area-card-subdesc">Security services throughout the province of Overijssel</p>
-                        <a class="area-view-map-btn" href="https://www.google.com/maps/search/Overijssel,+Netherlands"
+                        <p class="area-card-subdesc para">Security services throughout the province of Overijssel</p>
+                        <a class="area-view-map-btn boldTopic" href="https://www.google.com/maps/search/Overijssel,+Netherlands"
                             target="_blank">View Map</a>
                     </div>
                 </div>
@@ -603,7 +603,7 @@
                     data-map="https://www.google.com/maps/search/North+Holland,+Netherlands">
                     <div class="area-card-bg" style="background-image:url('resources/Untitled\ \(4\).png')"></div>
                     <div class="area-card-overlay"></div>
-                    <div class="area-card-collapsed-label">NORTH HOLLAND</div>
+                    <div class="area-card-collapsed-label topic">NORTH HOLLAND</div>
                     <div class="area-card-expanded">
                         <div class="area-card-title-row">
                             <div class="area-card-icon">
@@ -613,10 +613,10 @@
                                     <circle cx="12" cy="10" r="3" />
                                 </svg>
                             </div>
-                            <h3 class="area-card-name">NORTH HOLLAND</h3>
+                            <h3 class="area-card-name boldTopic">NORTH HOLLAND</h3>
                         </div>
-                        <p class="area-card-subdesc">Security services throughout the province of North Holland</p>
-                        <a class="area-view-map-btn"
+                        <p class="area-card-subdesc para">Security services throughout the province of North Holland</p>
+                        <a class="area-view-map-btn boldTopic"
                             href="https://www.google.com/maps/search/North+Holland,+Netherlands" target="_blank">View
                             Map</a>
                     </div>
@@ -634,7 +634,7 @@
                         <line x1="12" y1="16" x2="12.01" y2="16" />
                     </svg>
                 </div>
-                <p>Not sure if we cover your location? <a href="#contact" class="areas-info-link">Contact us
+                <p class="para">Not sure if we cover your location? <a href="#contact" class="areas-info-link">Contact us
                         directly</a> — we regularly extend our operations to new areas and may be able to assist you
                     regardless of region.</p>
             </div>
@@ -653,14 +653,14 @@
                 <!-- LEFT: Info -->
                 <div class="quote-left">
                     <div class="quote-label">
-                        <span class="quote-label-text">QUOTE</span>
+                        <span class="quote-label-text label">QUOTE</span>
                         <div class="quote-label-lines">
                             <span class="quote-label-line"></span>
                             <span class="quote-label-line"></span>
                         </div>
                     </div>
-                    <h2 class="quote-title">Request a Quote</h2>
-                    <p class="quote-desc">Fill in the form and we'll prepare a tailored security proposal for your
+                    <h2 class="quote-title topic">Request a Quote</h2>
+                    <p class="quote-desc para">Fill in the form and we'll prepare a tailored security proposal for your
                         situation. No obligations – just a professional consultation.</p>
 
                     <ul class="quote-features">
@@ -855,7 +855,7 @@
                         </div>
                         <div class="contact-info-text">
                             <span class="contact-info-label">PHONE NUMBER</span>
-                            <span class="contact-info-value">0000000000000</span>
+                            <span class="contact-info-value topic">0000000000000</span>
                         </div>
                     </div>
 
@@ -871,7 +871,7 @@
                         </div>
                         <div class="contact-info-text">
                             <span class="contact-info-label">EMAIL ADDRESS</span>
-                            <span class="contact-info-value">info@vjsecurity.nl</span>
+                            <span class="contact-info-value topic">info@vjsecurity.nl</span>
                         </div>
                     </div>
 
@@ -887,7 +887,7 @@
                         </div>
                         <div class="contact-info-text">
                             <span class="contact-info-label">BUSINESS ADDRESS</span>
-                            <span class="contact-info-value">Netherlands</span>
+                            <span class="contact-info-value topic">Netherlands</span>
                         </div>
                     </div>
 
@@ -903,7 +903,7 @@
                         </div>
                         <div class="contact-info-text">
                             <span class="contact-info-label">AVAILABILITY</span>
-                            <span class="contact-info-value">7 Days A Week · 24/7 Operations</span>
+                            <span class="contact-info-value topic">7 Days A Week · 24/7 Operations</span>
                         </div>
                     </div>
 
@@ -913,21 +913,21 @@
                 <div class="contact-info-right">
 
                     <div class="contact-info-label-tag">
-                        <span class="contact-info-tag-text">CONTACT</span>
+                        <span class="contact-info-tag-text label">CONTACT</span>
                         <div class="contact-tag-lines">
                             <span class="contact-tag-line"></span>
                             <span class="contact-tag-line"></span>
                         </div>
                     </div>
 
-                    <h2 class="contact-info-title">Get in Touch<br>With Us</h2>
+                    <h2 class="contact-info-title topic">Get in Touch<br>With Us</h2>
 
-                    <p class="contact-info-desc">
+                    <p class="contact-info-desc para">
                         Have questions about our services or want to discuss your security needs? Our team is available
                         7 days a week.
                     </p>
 
-                    <a href="#contact" class="contact-info-btn">Request a Quote</a>
+                    <a href="#contact" class="contact-info-btn boldTopic">Request a Quote</a>
                 </div>
 
                 <!-- Inner bottom dark bar spanning full card width -->
@@ -953,14 +953,14 @@
                 <div class="faq-left-gradient"></div>
                 <div class="faq-left-content">
                     <div class="faq-label">
-                        <span class="faq-label-text">FAQ</span>
+                        <span class="faq-label-text label">FAQ</span>
                         <div class="faq-label-lines">
                             <span class="faq-label-line"></span>
                             <span class="faq-label-line"></span>
                         </div>
                     </div>
-                    <h2 class="faq-title">Frequently Asked Questions</h2>
-                    <p class="faq-desc">Fill in the form and we'll prepare a tailored security proposal for your
+                    <h2 class="faq-title topic">Frequently Asked Questions</h2>
+                    <p class="faq-desc para">Fill in the form and we'll prepare a tailored security proposal for your
                         situation. No obligations - just a professional consultation.</p>
                 </div>
             </div>
@@ -970,8 +970,8 @@
 
                 <div class="faq-item active" data-faq>
                     <div class="faq-q">
-                        <span class="faq-num">01</span>
-                        <span class="faq-q-text">What areas do you cover in the Netherlands?</span>
+                        <span class="faq-num boldTopic">01</span>
+                        <span class="faq-q-text topic">What areas do you cover in the Netherlands?</span>
                         <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="12" y1="5" x2="12" y2="19" />
@@ -979,7 +979,7 @@
                             </svg></span>
                     </div>
                     <div class="faq-a">
-                        <p>We operate across multiple provinces including Groningen, Drenthe, Friesland, Overijssel, and
+                        <p class="para">We operate across multiple provinces including Groningen, Drenthe, Friesland, Overijssel, and
                             North Holland. Contact us if your location isn't listed — we regularly extend our operations
                             to new areas.</p>
                     </div>
@@ -987,8 +987,8 @@
 
                 <div class="faq-item" data-faq>
                     <div class="faq-q">
-                        <span class="faq-num">02</span>
-                        <span class="faq-q-text">Are your security officers licensed and certified?</span>
+                        <span class="faq-num boldTopic">02</span>
+                        <span class="faq-q-text topic">Are your security officers licensed and certified?</span>
                         <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="12" y1="5" x2="12" y2="19" />
@@ -996,7 +996,7 @@
                             </svg></span>
                     </div>
                     <div class="faq-a">
-                        <p>Yes. All our security personnel are fully trained, certified, and vetted. VJ Security
+                        <p class="para">Yes. All our security personnel are fully trained, certified, and vetted. VJ Security
                             Services operates under license number ND7924, fully compliant with the Wpbr (Wet
                             particuliere beveiligingsorganisaties en recherchebureaus).</p>
                     </div>
@@ -1004,8 +1004,8 @@
 
                 <div class="faq-item" data-faq>
                     <div class="faq-q">
-                        <span class="faq-num">03</span>
-                        <span class="faq-q-text">How quickly can you deploy security personnel?</span>
+                        <span class="faq-num boldTopic">03</span>
+                        <span class="faq-q-text topic">How quickly can you deploy security personnel?</span>
                         <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="12" y1="5" x2="12" y2="19" />
@@ -1013,7 +1013,7 @@
                             </svg></span>
                     </div>
                     <div class="faq-a">
-                        <p>We aim to respond to all quote requests within 24 hours. Deployment timelines depend on the
+                        <p class="para">We aim to respond to all quote requests within 24 hours. Deployment timelines depend on the
                             scope of the assignment, but we can accommodate both planned events and urgent security
                             needs.</p>
                     </div>
@@ -1021,8 +1021,8 @@
 
                 <div class="faq-item" data-faq>
                     <div class="faq-q">
-                        <span class="faq-num">04</span>
-                        <span class="faq-q-text">What types of events do you provide security for?</span>
+                        <span class="faq-num boldTopic">04</span>
+                        <span class="faq-q-text topic">What types of events do you provide security for?</span>
                         <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="12" y1="5" x2="12" y2="19" />
@@ -1030,7 +1030,7 @@
                             </svg></span>
                     </div>
                     <div class="faq-a">
-                        <p>We cover concerts, festivals, corporate events, private gatherings, and large public venues.
+                        <p class="para">We cover concerts, festivals, corporate events, private gatherings, and large public venues.
                             Our teams are experienced in both crowd management and VIP protection for all event scales.
                         </p>
                     </div>
@@ -1038,8 +1038,8 @@
 
                 <div class="faq-item" data-faq>
                     <div class="faq-q">
-                        <span class="faq-num">05</span>
-                        <span class="faq-q-text">Do you offer 24/7 security services?</span>
+                        <span class="faq-num boldTopic">05</span>
+                        <span class="faq-q-text topic">Do you offer 24/7 security services?</span>
                         <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="12" y1="5" x2="12" y2="19" />
@@ -1047,15 +1047,15 @@
                             </svg></span>
                     </div>
                     <div class="faq-a">
-                        <p>Yes. We operate 24 hours a day, 7 days a week, 365 days a year. Whether you need overnight
+                        <p class="para">Yes. We operate 24 hours a day, 7 days a week, 365 days a year. Whether you need overnight
                             object security or round-the-clock mobile patrols, we have you covered.</p>
                     </div>
                 </div>
 
                 <div class="faq-item" data-faq>
                     <div class="faq-q">
-                        <span class="faq-num">06</span>
-                        <span class="faq-q-text">How do I request a quote?</span>
+                        <span class="faq-num boldTopic">06</span>
+                        <span class="faq-q-text topic">How do I request a quote?</span>
                         <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="12" y1="5" x2="12" y2="19" />
@@ -1063,7 +1063,7 @@
                             </svg></span>
                     </div>
                     <div class="faq-a">
-                        <p>Simply fill in our quote request form on this page with your details, service type, location
+                        <p class="para">Simply fill in our quote request form on this page with your details, service type, location
                             and preferred date. We'll get back to you within 24 hours with a tailored proposal — no
                             obligations.</p>
                     </div>
@@ -1071,8 +1071,8 @@
 
                 <div class="faq-item" data-faq>
                     <div class="faq-q">
-                        <span class="faq-num">07</span>
-                        <span class="faq-q-text">Is VJ Security Services insured?</span>
+                        <span class="faq-num boldTopic">07</span>
+                        <span class="faq-q-text topic">Is VJ Security Services insured?</span>
                         <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="12" y1="5" x2="12" y2="19" />
@@ -1080,7 +1080,7 @@
                             </svg></span>
                     </div>
                     <div class="faq-a">
-                        <p>Yes. We are fully licensed and insured, operating within the legal frameworks of the Dutch
+                        <p class="para">Yes. We are fully licensed and insured, operating within the legal frameworks of the Dutch
                             private security industry. Our registration number ND7924 confirms our compliance with all
                             applicable regulations.</p>
                     </div>
@@ -1099,13 +1099,13 @@
             <!-- Footer CTA Box -->
             <div class="footer-cta-wrapper">
                 <div class="footer-cta-box">
-                    <div class="footer-cta-content">
+                    <div class="footer-cta-content boldTopic">
                         <h2>Get a free estimate today</h2>
                     </div>
                     <div class="footer-cta-content-right">
-                        <p>Have questions about our services or want to discuss your security needs? Our team is
+                        <p class="para">Have questions about our services or want to discuss your security needs? Our team is
                             available 7 days a week.</p>
-                        <a href="#contact" class="footer-cta-btn">Request Quote</a>
+                        <a href="#contact" class="footer-cta-btn boldTopic">Request Quote</a>
                     </div>
                 </div>
             </div>
@@ -1129,7 +1129,7 @@
                             </div> -->
                             <img src="resources/footer/vj.png" class="navbar-logo">
                         </div>
-                        <p class="footer-description">
+                        <p class="footer-description para">
                             Every security assignment begins with understanding. We take a structured, three-phase
                             approach to every engagement - ensuring nothing is left to chance.
                         </p>
@@ -1157,61 +1157,61 @@
 
                     <!-- Column 2: Quick Links -->
                     <div class="footer-column">
-                        <h3>Quick Links</h3>
+                        <h3 class="topic">Quick Links</h3>
                         <ul class="footer-links">
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#quote">Quote</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li><a href="#approach">Approach</a></li>
-                            <li><a href="#faq">FaQ</a></li>
+                            <li><a href="#home" class="boldTopic">Home</a></li>
+                            <li><a href="#services" class="boldTopic">Services</a></li>
+                            <li><a href="#about" class="boldTopic">About</a></li>
+                            <li><a href="#quote" class="boldTopic">Quote</a></li>
+                            <li><a href="#contact" class="boldTopic">Contact</a></li>
+                            <li><a href="#approach" class="boldTopic">Approach</a></li>
+                            <li><a href="#faq" class="boldTopic">FaQ</a></li>
                         </ul>
                     </div>
 
                     <!-- Column 3: Services -->
                     <div class="footer-column">
-                        <h3>Services</h3>
+                        <h3 class="topic">Services</h3>
                         <ul class="footer-links">
-                            <li><a href="#">Object Security</a></li>
-                            <li><a href="#">Fire Watch</a></li>
-                            <li><a href="#">Event Security</a></li>
-                            <li><a href="#">Personal Security</a></li>
-                            <li><a href="#">Retail Surveillance</a></li>
-                            <li><a href="#">Access Control</a></li>
+                            <li><a href="#" class="boldTopic">Object Security</a></li>
+                            <li><a href="#" class="boldTopic">Fire Watch</a></li>
+                            <li><a href="#" class="boldTopic">Event Security</a></li>
+                            <li><a href="#" class="boldTopic">Personal Security</a></li>
+                            <li><a href="#" class="boldTopic">Retail Surveillance</a></li>
+                            <li><a href="#" class="boldTopic">Access Control</a></li>
                         </ul>
                     </div>
 
                     <!-- Column 4: Contact Info -->
                     <div class="footer-column">
-                        <h3>Contact Info</h3>
+                        <h3 class="topic">Contact Info</h3>
                         <div class="contact-item">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path
                                     d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                             </svg>
-                            <span>0000000000000</span>
+                            <span class="boldTopic">0000000000000</span>
                         </div>
                         <div class="contact-item">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                                 <polyline points="22,6 12,13 2,6" />
                             </svg>
-                            <span>[email protected]</span>
+                            <span class="boldTopic">[email protected]</span>
                         </div>
                         <div class="contact-item">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
                                 <circle cx="12" cy="10" r="3" />
                             </svg>
-                            <span>Netherlands</span>
+                            <span class="boldTopic">Netherlands</span>
                         </div>
                         <div class="contact-item">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <circle cx="12" cy="12" r="10" />
                                 <polyline points="12 6 12 12 16 14" />
                             </svg>
-                            <span>24/7 — 365 days</span>
+                            <span class="boldTopic">24/7 — 365 days</span>
                         </div>
                     </div>
 
@@ -1222,15 +1222,15 @@
             <div class="footer-bottom-wrapper">
                 <div class="footer-bottom-panel">
                     <div class="footer-bottom-border-top"></div>
-                    <p class="copyright">
+                    <p class="copyright topic">
                         <!-- <svg viewBox="0 0 24 24" fill="currentColor">
                             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
                             <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
                             <path d="M12 6v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                         </svg> -->
-                        &copy;&nbsp;2026. All Rights Received.
+                        &copy;&nbsp;<script>document.write(new Date().getFullYear())</script>. All Rights Received.
                     </p>
-                    <p class="developer">
+                    <p class="developer topic">
                         Design And Developed By <a href="#">Evon Technologies Software Solutions (PVT) Ltd.</a>
                     </p>
                 </div>

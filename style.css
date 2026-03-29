@@ -1,7 +1,22 @@
-/* ============================================
-   VJ SECURITY SERVICES - COMBINED STYLES
-   Merged from Hero/Nav + Footer components
-   ============================================ */
+@font-face {
+    font-family: "interBold";
+    src: url("resources/fonts/inter_bold.ttf");
+}
+
+@font-face {
+    font-family: "interRegular";
+    src: url("resources/fonts/inter_regular.ttf");
+}
+
+@font-face {
+    font-family: "monBold";
+    src: url("resources/fonts/Montserrat-Bold.ttf");
+}
+
+@font-face {
+    font-family: "monSemiBold";
+    src: url("resources/fonts/Montserrat-SemiBold.ttf");
+}
 
 /* CSS Reset & Base */
 * {
@@ -35,6 +50,22 @@ body {
     background-color: var(--primary-dark);
     color: var(--text-white);
     overflow-x: hidden;
+}
+
+.label{
+    font-family: "interBold";
+}
+
+.topic{
+    font-family: "monSemiBold";
+}
+
+.para{
+    font-family: "interRegular";
+}
+
+.boldTopic{
+    font-family: "monBold";
 }
 
 /* ============================================
