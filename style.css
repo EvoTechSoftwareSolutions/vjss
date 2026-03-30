@@ -4114,7 +4114,7 @@ background: linear-gradient(180deg, rgba(5, 14, 23, 1) 0%, rgba(11, 34, 56, 1) 1
 .footer-cta-btn {
     background: var(--accent-gold);
     color: var(--primary-dark);
-    padding: 1rem 2rem;
+    padding: 0.8rem 2rem;
     border-radius: 8px;
     text-decoration: none;
     font-weight: 600;

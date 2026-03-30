@@ -68,7 +68,7 @@
                         </svg>
                         Call Now
                     </a>
-                    <a href="#contact" class="btn btn-gold boldTopic">Request Quote</a>
+                    <a href="#booking" class="btn btn-gold boldTopic">Request Quote</a>
                 </div>
 
                 <div class="menu-toggle" id="menuToggle">
@@ -93,7 +93,7 @@
                 <a href="#service-areas" class="topic">Service Area</a>
                 <a href="#contact" class="topic">Contact</a>
                 <a href="tel:+1234567890" class="btn btn-outline boldTopic">Call Now</a>
-                <a href="#contact" class="btn btn-gold boldTopic">Request Quote</a>
+                <a href="#booking" class="btn btn-gold boldTopic">Request Quote</a>
             </div>
 
             <!-- Menu Overlay -->
@@ -129,7 +129,7 @@
                             </svg>
                             Call Now
                         </a>
-                        <a href="#contact" class="btn btn-gold boldTopic">Request Quote</a>
+                        <a href="#booking" class="btn btn-gold boldTopic">Request Quote</a>
                     </div>
                 </div>
 
@@ -927,7 +927,7 @@
                         7 days a week.
                     </p>
 
-                    <a href="#contact" class="contact-info-btn boldTopic">Request a Quote</a>
+                    <a href="#booking" class="contact-info-btn boldTopic">Request a Quote</a>
                 </div>
 
                 <!-- Inner bottom dark bar spanning full card width -->
@@ -1105,7 +1105,7 @@
                     <div class="footer-cta-content-right">
                         <p class="para">Have questions about our services or want to discuss your security needs? Our team is
                             available 7 days a week.</p>
-                        <a href="#contact" class="footer-cta-btn boldTopic">Request Quote</a>
+                        <a href="#booking" class="footer-cta-btn boldTopic">Request Quote</a>
                     </div>
                 </div>
             </div>
@@ -1162,7 +1162,7 @@
                             <li><a href="#home" class="boldTopic">Home</a></li>
                             <li><a href="#services" class="boldTopic">Services</a></li>
                             <li><a href="#about" class="boldTopic">About</a></li>
-                            <li><a href="#quote" class="boldTopic">Quote</a></li>
+                            <li><a href="#booking" class="boldTopic">Quote</a></li>
                             <li><a href="#contact" class="boldTopic">Contact</a></li>
                             <li><a href="#approach" class="boldTopic">Approach</a></li>
                             <li><a href="#faq" class="boldTopic">FaQ</a></li>
