@@ -24,7 +24,7 @@
 <body>
     <!-- Scroll to Top Button -->
     <div class="scroll-to-top" id="scrollToTop" onclick="scrollToTop()">
-        <div class="scroll-text topic">Top</div>
+        <div class="scroll-text topic">Naar Boven</div>
         <div class="mouse-icon">
             <div class="mouse-wheel"></div>
         </div>
@@ -53,9 +53,9 @@
                 <div class="nav-wrapper">
                     <ul class="nav-links" id="navLinks">
                         <li><a href="#home" class="active topic">Home</a></li>
-                        <li><a href="#about" class="topic">About</a></li>
-                        <li><a href="#services" class="topic">Services</a></li>
-                        <li><a href="#approach" class="topic">Approach</a></li>
+                        <li><a href="#about" class="topic">Over&nbsp;ons</a></li>
+                        <li><a href="#services" class="topic">Diensten</a></li>
+                        <li><a href="#approach" class="topic">Aanpak</a></li>
                         <li><a href="#service-areas" class="topic">Service&nbsp;Area</a></li>
                         <li><a href="#contact" class="topic">Contact</a></li>
                     </ul>
@@ -67,9 +67,9 @@
                             <path
                                 d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                         </svg>
-                        Call Now
+                        Bel Nu
                     </a>
-                    <a href="#booking" class="btn btn-gold boldTopic">Request Quote</a>
+                    <a href="#booking" class="btn btn-gold boldTopic">Offerte Aanvragen</a>
                 </div>
 
                 <div class="menu-toggle" id="menuToggle">
@@ -88,13 +88,13 @@
                 </div>
 
                 <a href="#home" class="topic">Home</a>
-                <a href="#about" class="topic">About</a>
-                <a href="#services" class="topic">Services</a>
-                <a href="#approach" class="topic">Approach</a>
-                <a href="#service-areas" class="topic">Service Area</a>
+                <a href="#about" class="topic">Over&nbsp;ons</a>
+                <a href="#services" class="topic">Diensten</a>
+                <a href="#approach" class="topic">Aanpak</a>
+                <a href="#service-areas" class="topic">Service&nbsp;Area</a>
                 <a href="#contact" class="topic">Contact</a>
-                <a href="tel:+1234567890" class="btn btn-outline boldTopic">Call Now</a>
-                <a href="#booking" class="btn btn-gold boldTopic">Request Quote</a>
+                <a href="tel:+1234567890" class="btn btn-outline boldTopic">Bel Nu</a>
+                <a href="#booking" class="btn btn-gold boldTopic">Offerte Aanvragen</a>
             </div>
 
             <!-- Menu Overlay -->
@@ -115,8 +115,7 @@
                         <h1 class="hero-title boldTopic">VJ Security Services</h1>
 
                         <p class="hero-description para">
-                            Security with control, calm and professional presence. We protect what matters most your
-                            people, assets and events.
+                            Beveiliging met regie, rust en professionele uitstraling.
                         </p>
                     </div>
                 </div>
@@ -128,9 +127,9 @@
                                 <path
                                     d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                             </svg>
-                            Call Now
+                            Bel Nu
                         </a>
-                        <a href="#booking" class="btn btn-gold boldTopic">Request Quote</a>
+                        <a href="#booking" class="btn btn-gold boldTopic">Offerte Aanvragen</a>
                     </div>
                 </div>
 
@@ -150,32 +149,26 @@
             <!-- Left: Text Content -->
             <div class="about-left">
                 <div class="about-label">
-                    <span class="about-label-text label">ABOUT US</span>
+                    <span class="about-label-text label">OVER ONS</span>
                     <div class="about-label-lines">
                         <span class="about-label-line"></span>
                         <span class="about-label-line"></span>
                     </div>
                 </div>
 
-                <h2 class="about-title topic">About VJ Security Services</h2>
+                <h2 class="about-title topic">Over VJ Security Services</h2>
 
                 <p class="about-body para">
-                    VJ Security Services is a licensed security company based in the Netherlands, fully compliant
-                    with the Private Security Industry Act (Wpbr). With our registration number ND7924, we operate
-                    with complete transparency and within the legal frameworks governing private security.
+                    VJ Security Services is een erkend beveiligingsbedrijf gevestigd in Nederland, volledig conform de Wet op de Particuliere Beveiliging (Wpbr). Met ons registratienummer ND7924 opereren wij volledig transparant en binnen de wettelijke kaders die gelden voor particuliere beveiliging.
                 </p>
 
                 <p class="about-body para">
-                    We specialize in professional, human-centered security. Our team consists of trained, certified
-                    security officers who are selected not only for their expertise, but for their calm demeanor,
-                    situational awareness and professional conduct.
+                    Wij staan ​​voor controle en overzicht zonder onnodige escalatie. We werken met duidelijke briefings, professionele communicatie en een kalme houding onder druk. De inzet wordt altijd afgestemd op het risico, de locatie en het doel van de opdracht.
                 </p>
 
                 <div class="about-license-box">
                     <span class="about-license-text para">
-                        <strong>License: ND7924</strong> — We are fully registered and compliant with the Wpbr
-                        (Wet particuliere beveiligingsorganisaties en recherchebureaus), the Dutch legal framework
-                        governing all private security activities.
+                        <strong>License: ND7924</strong> - Wij zijn volledig geregistreerd en voldoen aan de Wpbr (Wet particuliere beveiligingsorganisatie en recherchebureau), het Nederlandse wettelijke kader voor alle particuliere beveiligingsactiviteiten.
                     </span>
                 </div>
             </div>
@@ -184,7 +177,7 @@
             <div class="about-right">
                 <div class="about-trusted-badge">
                     <span class="about-trusted-percent boldTopic">100%</span>
-                    <span class="about-trusted-label boldTopic">Trusted</span>
+                    <span class="about-trusted-label boldTopic">Betrouwbaar</span>
                 </div>
 
                 <!-- <div class="about-shield-wrap">
@@ -211,28 +204,28 @@
 
             <div class="stat-item">
                 <span class="stat-value boldTopic" data-target="7924" data-prefix="ND">ND0</span>
-                <span class="stat-label para">Official License Number</span>
+                <span class="stat-label para">Officieel licentienummer</span>
             </div>
 
             <div class="stat-divider"></div>
 
             <div class="stat-item">
                 <span class="stat-value boldTopic" data-target="100" data-suffix="%">0%</span>
-                <span class="stat-label para">Wpbr Compliant</span>
+                <span class="stat-label para">Wpbr conform</span>
             </div>
 
             <div class="stat-divider"></div>
 
             <div class="stat-item">
                 <span class="stat-value boldTopic" data-target="8" data-pad="2">00</span>
-                <span class="stat-label para">Security Services</span>
+                <span class="stat-label para">Beveiligingsdiensten</span>
             </div>
 
             <div class="stat-divider"></div>
 
             <div class="stat-item">
                 <span class="stat-value boldTopic" data-target="5" data-pad="2">00</span>
-                <span class="stat-label para">Provinces Covered</span>
+                <span class="stat-label para">Betrokken provincies</span>
             </div>
 
         </div>
@@ -246,17 +239,17 @@
                 <!-- Text Block (spans 2×1) -->
                 <div class="services-intro">
                     <div class="services-label">
-                        <span class="services-label-text label">SERVICES</span>
+                        <span class="services-label-text label">Diensten</span>
                         <div class="services-label-lines">
                             <span class="services-label-line"></span>
                             <span class="services-label-line"></span>
                         </div>
                     </div>
-                    <h2 class="services-title topic">Services We Supply</h2>
+                    <h2 class="services-title topic">Diensten die wij leveren</h2>
                     <p class="services-description para">
-                        We offer a comprehensive range of professional security services tailored to the needs of
-                        businesses, event organizers, private individuals and public institutions across the
-                        Netherlands.
+                        Wij bieden een uitgebreide reeks professionele beveiligingsservices aan, afgestemd op de behoeften van
+                        bedrijven, evenementenorganisaties, particuliere personen en publieke instellingen in de
+                        Nederlandse regio.
                     </p>
                 </div>
 
@@ -270,11 +263,10 @@
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title boldTopic">Object Security</h3>
+                            <h3 class="service-card-title boldTopic">Object Beveiliging</h3>
                         </div>
                         <p class="service-card-desc para">
-                            Professional protection of commercial and industrial premises, including access management
-                            and patrols.
+                            Zichtbare aanwezigheid, toegangscontrole en preventie.
                         </p>
                     </div>
                 </div>
@@ -282,17 +274,16 @@
                 <!-- Item 3: Event Security -->
                 <div class="service-card">
                     <div class="service-card-image">
-                        <img src="resources/services/event-security.jpg" alt="Event Security" loading="lazy">
+                        <img src="resources/large event security guards services.jpeg" alt="Event Security" loading="lazy">
                         <div class="service-card-overlay"></div>
                     </div>
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title boldTopic">Event Security</h3>
+                            <h3 class="service-card-title boldTopic">Evenementen Beveiliging</h3>
                         </div>
                         <p class="service-card-desc para">
-                            Comprehensive security solutions for concerts, festivals, corporate events and private
-                            gatherings.
+                            Crowd control, doorstroom en duidelijke toegangsprocedures.
                         </p>
                     </div>
                 </div>
@@ -300,17 +291,16 @@
                 <!-- Item 4: Personal Security -->
                 <div class="service-card">
                     <div class="service-card-image">
-                        <img src="resources/services/personal-security.jpg" alt="Personal Security" loading="lazy">
+                        <img src="resources/large event security guards services.jpeg" alt="Personal Security" loading="lazy">
                         <div class="service-card-overlay"></div>
                     </div>
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title boldTopic">Personal Security</h3>
+                            <h3 class="service-card-title boldTopic">Persoons Beveiliging</h3>
                         </div>
                         <p class="service-card-desc para">
-                            Dedicated protection services for VIPs, executives and individuals requiring personal
-                            safety.
+                            Discreet, planmatig en afgestemd op risico en omgeving.
                         </p>
                     </div>
                 </div>
@@ -318,16 +308,16 @@
                 <!-- Item 5: Fire Watch -->
                 <div class="service-card">
                     <div class="service-card-image">
-                        <img src="resources/services/fire-watch.jpg" alt="Fire Watch" loading="lazy">
+                        <img src="resources/large event security guards services.jpeg" alt="Fire Watch" loading="lazy">
                         <div class="service-card-overlay"></div>
                     </div>
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title boldTopic">Fire Watch</h3>
+                            <h3 class="service-card-title boldTopic">Winkelsurveillance</h3>
                         </div>
                         <p class="service-card-desc para">
-                            Trained fire watch personnel to monitor premises and ensure rapid response to fire hazards.
+                            Preventie, observatie en handelen bij diefstal of overlast.
                         </p>
                     </div>
                 </div>
@@ -335,16 +325,16 @@
                 <!-- Item 6: Retail Surveillance -->
                 <div class="service-card">
                     <div class="service-card-image">
-                        <img src="resources/services/retail-surveillance.jpg" alt="Retail Surveillance" loading="lazy">
+                        <img src="resources/large event security guards services.jpeg" alt="Retail Surveillance" loading="lazy">
                         <div class="service-card-overlay"></div>
                     </div>
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title boldTopic">Retail Surveillance</h3>
+                            <h3 class="service-card-title boldTopic">Horeca Beveiliging</h3>
                         </div>
                         <p class="service-card-desc para">
-                            Loss prevention and customer safety services for retail stores and shopping centers.
+                            Rust aan de deur, toezicht binnen en professioneel optreden.
                         </p>
                     </div>
                 </div>
@@ -352,16 +342,16 @@
                 <!-- Item 7: Access Control -->
                 <div class="service-card">
                     <div class="service-card-image">
-                        <img src="resources/services/access-control.jpg" alt="Access Control" loading="lazy">
+                        <img src="resources/large event security guards services.jpeg" alt="Access Control" loading="lazy">
                         <div class="service-card-overlay"></div>
                     </div>
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title boldTopic">Access Control</h3>
+                            <h3 class="service-card-title boldTopic">Toegangscontrole</h3>
                         </div>
                         <p class="service-card-desc para">
-                            Professional management of entry points, visitor verification and secure area monitoring.
+                            Fouilleren, ticketscans en publieksbegeleiding.
                         </p>
                     </div>
                 </div>
@@ -369,16 +359,16 @@
                 <!-- Item 8: Mobile Patrol -->
                 <div class="service-card">
                     <div class="service-card-image">
-                        <img src="resources/services/mobile-patrol.jpg" alt="Mobile Patrol" loading="lazy">
+                        <img src="resources/large event security guards services.jpeg" alt="Mobile Patrol" loading="lazy">
                         <div class="service-card-overlay"></div>
                     </div>
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title boldTopic">Mobile Patrol</h3>
+                            <h3 class="service-card-title boldTopic">Brandwacht</h3>
                         </div>
                         <p class="service-card-desc para">
-                            Regular vehicle patrols covering multiple locations with rapid incident response capability.
+                            Toezicht op brandveiligheid, routes en naleving van afspraken.
                         </p>
                     </div>
                 </div>
@@ -386,16 +376,16 @@
                 <!-- Item 9: Crowd Management -->
                 <div class="service-card">
                     <div class="service-card-image">
-                        <img src="resources/services/crowd-management.jpg" alt="Crowd Management" loading="lazy">
+                        <img src="resources/large event security guards services.jpeg" alt="Crowd Management" loading="lazy">
                         <div class="service-card-overlay"></div>
                     </div>
                     <div class="service-card-content">
                         <div class="service-card-header">
                             <div class="service-card-dot"></div>
-                            <h3 class="service-card-title boldTopic">Crowd&nbsp;Management</h3>
+                            <h3 class="service-card-title boldTopic">Toezichthouders</h3>
                         </div>
                         <p class="service-card-desc para">
-                            Expert crowd flow management and safety protocols for large public gatherings and venues.
+                            Zichtbaar aanspreekpunt, handhaving van huisregels en orde.
                         </p>
                     </div>
                 </div>
@@ -418,10 +408,8 @@
                 <div class="approach-card-wrapper" data-approach-card>
                     <div class="approach-number-box"><span class="approach-number boldTopic">01</span></div>
                     <div class="approach-content-card">
-                        <div class="approach-card-title topic">Intake &amp; Risk Assessment</div>
-                        <div class="approach-card-desc para">We Meet With You To Understand Your Environment, Risks, And
-                            Objectives. Every Security Plan Starts With A Thorough Assessment Of Threats,
-                            Vulnerabilities And Specific Requirements.</div>
+                        <div class="approach-card-title topic">Intake En Risico-inschatting</div>
+                        <div class="approach-card-desc para">We gaan met u in gesprek om uw omgeving, risico's en doelstellingen te begrijpen. Elk beveiligingsplan begint met een grondige beoordeling van bedreigingen, kwetsbaarheden en specifieke vereisten.</div>
                         <div class="approach-icon-btn">
                             <svg viewBox="0 0 24 24">
                                 <circle cx="10.5" cy="10.5" r="7" />
@@ -434,15 +422,14 @@
                 <!-- Section Header -->
                 <div class="approach-header">
                     <div class="approach-label">
-                        <span class="approach-label-text label">Approach</span>
+                        <span class="approach-label-text label">Aanpak</span>
                         <div class="approach-label-lines">
                             <span class="approach-label-line"></span>
                             <span class="approach-label-line"></span>
                         </div>
                     </div>
-                    <h2 class="approach-section-title topic">Our Approach</h2>
-                    <p class="approach-section-desc para">Every security assignment begins with understanding. We take a
-                        structured, three-phase approach to every engagement — ensuring nothing is left to chance.</p>
+                    <h2 class="approach-section-title topic">Onze Aanpak</h2>
+                    <p class="approach-section-desc para">Een vaste werkwijze die zorgt voor duidelijke afspraken en voorspelbare uitvoering.</p>
                 </div>
 
             </div>
@@ -452,10 +439,9 @@
                 <div class="approach-card-wrapper" data-approach-card>
                     <div class="approach-number-box"><span class="approach-number boldTopic">02</span></div>
                     <div class="approach-content-card">
-                        <div class="approach-card-title topic">Planning &amp; Briefing</div>
-                        <div class="approach-card-desc para">Based On The Assessment, We Develop A Tailored Security Plan.
-                            All Personnel Are Thoroughly Briefed With Clear Protocols, Communication Structures And Role
-                            Assignments.</div>
+                        <div class="approach-card-title topic">Planning En Briefing</div>
+                        <div class="approach-card-desc para">Op basis van de inschatting ontwikkelen we een afgestemd beveiligingsplan.
+                            Alle medewerkers krijgen een grondig briefing met duidelijke protocollen, communicatiestructuren en roltoewijzingen.</div>
                         <div class="approach-icon-btn">
                             <svg viewBox="0 0 24 24">
                                 <rect x="3" y="3" width="18" height="18" rx="2" />
@@ -472,10 +458,10 @@
                 <div class="approach-card-wrapper" data-approach-card>
                     <div class="approach-number-box"><span class="approach-number boldTopic">03</span></div>
                     <div class="approach-content-card">
-                        <div class="approach-card-title topic">Execution &amp; Feedback</div>
-                        <div class="approach-card-desc para">Our Team Executes The Plan With Precision And Calm Authority.
-                            After Each Assignment, We Provide A Structured Debrief And Feedback Report For Continuous
-                            Improvement.</div>
+                        <div class="approach-card-title topic">Uitvoering En Terugkoppeling</div>
+                        <div class="approach-card-desc para">Ons team voert het plan uit met precisie en rust.
+                            Na elke opdracht bieden we een gestructureerde debrief en feedbackrapport aan voor continue
+                            verbetering.</div>
                         <div class="approach-icon-btn">
                             <svg viewBox="0 0 24 24">
                                 <polyline points="20 6 9 17 4 12" />
@@ -498,15 +484,14 @@
             <!-- Header -->
             <div class="areas-header">
                 <div class="areas-label">
-                    <span class="areas-label-text label">AREAS</span>
+                    <span class="areas-label-text label">Werkgebied</span>
                     <div class="areas-label-lines">
                         <span class="areas-label-line"></span>
                         <span class="areas-label-line"></span>
                     </div>
                 </div>
-                <h2 class="areas-title topic">Service Areas We Available</h2>
-                <p class="areas-desc para">VJ Security Services operates across multiple provinces in the Netherlands,
-                    providing licensed security services to clients in both urban and rural settings.</p>
+                <h2 class="areas-title topic">Servicegebieden waar wij beschikbaar zijn</h2>
+                <p class="areas-desc para">VJ Security Services is actief in meerdere provincies in Nederland en levert erkende beveiligingsdiensten aan klanten in zowel stedelijke als landelijke gebieden.</p>
             </div>
 
             <!-- Accordion Cards -->
@@ -528,7 +513,16 @@
                             </div>
                             <h3 class="area-card-name boldTopic">GRONINGEN</h3>
                         </div>
-                        <p class="area-card-subdesc para">Security services throughout the province of Groningen</p>
+                        <p class="area-card-subdesc para">Beveiliging voor objecten en evenementen in Groningen en omgeving.
+                            <br>Voorbeelden : Groningen, Hoogezand, Veendam, Winschoten, Delfzijl.
+
+                            <!-- <table>
+                                <tr>
+                                    <td>Voorbeelden : </td>
+                                    <td>Groningen, Hoogezand, Veendam, Winschoten, Delfzijl.</td>
+                                </tr>
+                            </table> -->
+                        </p>
                         <a class="area-view-map-btn boldTopic" href="https://www.google.com/maps/search/Groningen,+Netherlands"
                             target="_blank">View Map</a>
                     </div>
@@ -550,7 +544,7 @@
                             </div>
                             <h3 class="area-card-name boldTopic">DRENTHE</h3>
                         </div>
-                        <p class="area-card-subdesc para">Security services throughout the province of Drenthe</p>
+                        <p class="area-card-subdesc para">Inzetbaar in Drenthe voor object- en evenementenbeveiliging.<br>Voorbeelden: Assen, Emmen, Hoogeveen, Meppel, Coevorden.</p>
                         <a class="area-view-map-btn boldTopic" href="https://www.google.com/maps/search/Drenthe,+Netherlands"
                             target="_blank">View Map</a>
                     </div>
@@ -572,7 +566,7 @@
                             </div>
                             <h3 class="area-card-name boldTopic">FRIESLAND</h3>
                         </div>
-                        <p class="area-card-subdesc para">Security services throughout the province of Friesland</p>
+                        <p class="area-card-subdesc para">Professionele beveiliging in Friesland, afgestemd op locatie en risico.<br>Voorbeelden: Leeuwarden, Heerenveen, Drachten, Sneek, Harlingen.</p>
                         <a class="area-view-map-btn boldTopic" href="https://www.google.com/maps/search/Friesland,+Netherlands"
                             target="_blank">View Map</a>
                     </div>
@@ -594,7 +588,7 @@
                             </div>
                             <h3 class="area-card-name boldTopic">OVERIJSSEL</h3>
                         </div>
-                        <p class="area-card-subdesc para">Security services throughout the province of Overijssel</p>
+                        <p class="area-card-subdesc para">Beveiliging voor organisaties, retail en evenementen in Overijssel.<br>Voorbeelden: Zwolle, Enschede, Deventer, Hengelo, Almelo.</p>
                         <a class="area-view-map-btn boldTopic" href="https://www.google.com/maps/search/Overijssel,+Netherlands"
                             target="_blank">View Map</a>
                     </div>
@@ -604,7 +598,7 @@
                     data-map="https://www.google.com/maps/search/North+Holland,+Netherlands">
                     <div class="area-card-bg" style="background-image:url('resources/Untitled\ \(4\).png')"></div>
                     <div class="area-card-overlay"></div>
-                    <div class="area-card-collapsed-label topic">NORTH HOLLAND</div>
+                    <div class="area-card-collapsed-label topic">Noord-Holland</div>
                     <div class="area-card-expanded">
                         <div class="area-card-title-row">
                             <div class="area-card-icon">
@@ -614,9 +608,9 @@
                                     <circle cx="12" cy="10" r="3" />
                                 </svg>
                             </div>
-                            <h3 class="area-card-name boldTopic">NORTH HOLLAND</h3>
+                            <h3 class="area-card-name boldTopic">Noord-Holland</h3>
                         </div>
-                        <p class="area-card-subdesc para">Security services throughout the province of North Holland</p>
+                        <p class="area-card-subdesc para">Inzetbaar in Noord-Holland voor objecten, horeca en evenementen.<br>Voorbeelden: Amsterdam, Haarlem, Alkmaar, Hoofddorp, Zaandam.</p>
                         <a class="area-view-map-btn boldTopic"
                             href="https://www.google.com/maps/search/North+Holland,+Netherlands" target="_blank">View
                             Map</a>
@@ -635,9 +629,7 @@
                         <line x1="12" y1="16" x2="12.01" y2="16" />
                     </svg>
                 </div>
-                <p class="para">Not sure if we cover your location? <a href="#contact" class="areas-info-link">Contact us
-                        directly</a> — we regularly extend our operations to new areas and may be able to assist you
-                    regardless of region.</p>
+                <p class="para">Weet je niet zeker of we in jouw regio actief zijn? <a href="#contact" class="areas-info-link">Neem direct contact met ons op.</a> - We breiden onze activiteiten regelmatig uit naar nieuwe gebieden en kunnen u wellicht in elke regio van dienst zijn.</p>
             </div>
 
         </div>
@@ -654,15 +646,14 @@
                 <!-- LEFT: Info -->
                 <div class="quote-left">
                     <div class="quote-label">
-                        <span class="quote-label-text label">QUOTE</span>
+                        <span class="quote-label-text label">Offerte</span>
                         <div class="quote-label-lines">
                             <span class="quote-label-line"></span>
                             <span class="quote-label-line"></span>
                         </div>
                     </div>
-                    <h2 class="quote-title topic">Request a Quote</h2>
-                    <p class="quote-desc para">Fill in the form and we'll prepare a tailored security proposal for your
-                        situation. No obligations – just a professional consultation.</p>
+                    <h2 class="quote-title topic">Offerte aanvragen</h2>
+                    <p class="quote-desc para">Vraag een offerte aan op basis van locatie, tijden en type beveiliging. U ontvangt een snelle terugkoppeling met een duidelijke bevestiging van inzet en kosten.</p>
 
                     <ul class="quote-features">
                         <li>
@@ -673,7 +664,7 @@
                                     <polyline points="20 12 9 23 4 18" />
                                 </svg>
                             </span>
-                            Response within 24 hours
+                            Reactie binnen 24 uur.
                         </li>
                         <li>
                             <span class="quote-check">
@@ -683,7 +674,7 @@
                                     <polyline points="20 12 9 23 4 18" />
                                 </svg>
                             </span>
-                            No-obligation quote
+                            Vrijblijvende offerte.
                         </li>
                         <li>
                             <span class="quote-check">
@@ -693,7 +684,7 @@
                                     <polyline points="20 12 9 23 4 18" />
                                 </svg>
                             </span>
-                            Tailored to your needs
+                            Afgestemd op uw behoeften.
                         </li>
                         <li>
                             <span class="quote-check">
@@ -703,7 +694,7 @@
                                     <polyline points="20 12 9 23 4 18" />
                                 </svg>
                             </span>
-                            Licensed &amp; insured service
+                            Erkende en verzekerde services.
                         </li>
                         <li>
                             <span class="quote-check">
@@ -713,7 +704,7 @@
                                     <polyline points="20 12 9 23 4 18" />
                                 </svg>
                             </span>
-                            Available 7 days a week
+                            7 dagen per week beschikbaar.
                         </li>
                     </ul>
                 </div>
@@ -723,46 +714,46 @@
 
                     <div class="quote-row">
                         <div class="quote-field">
-                            <div class="quote-field-label">Full Name</div>
+                            <div class="quote-field-label">Volledige Naam</div>
                             <div class="quote-input-wrap">
                                 <div class="quote-input" contenteditable="true"
-                                    data-placeholder="Enter Your Full Name Here"></div>
+                                    data-placeholder="Voer Uw Volledige Naam In"></div>
                             </div>
                         </div>
                         <div class="quote-field">
-                            <div class="quote-field-label">Company Name <span class="quote-optional">(Optional)</span>
+                            <div class="quote-field-label">Bedrijfsnaam <span class="quote-optional">(Optioneel)</span>
                             </div>
                             <div class="quote-input-wrap">
                                 <div class="quote-input" contenteditable="true"
-                                    data-placeholder="Enter Your Company Name Here"></div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="quote-row">
-                        <div class="quote-field">
-                            <div class="quote-field-label">Phone Number</div>
-                            <div class="quote-input-wrap">
-                                <div class="quote-input" contenteditable="true"
-                                    data-placeholder="Enter Your Phone Number Here"></div>
-                            </div>
-                        </div>
-                        <div class="quote-field">
-                            <div class="quote-field-label">Email Address <span class="quote-optional">(Optional)</span>
-                            </div>
-                            <div class="quote-input-wrap">
-                                <div class="quote-input" contenteditable="true"
-                                    data-placeholder="Enter Your Email Address Here"></div>
+                                    data-placeholder="Voer Uw Bedrijfsnaam In"></div>
                             </div>
                         </div>
                     </div>
 
                     <div class="quote-row">
                         <div class="quote-field">
-                            <div class="quote-field-label">Service Type</div>
+                            <div class="quote-field-label">Telefoonnummer</div>
+                            <div class="quote-input-wrap">
+                                <div class="quote-input" contenteditable="true"
+                                    data-placeholder="Voer Uw Telefoonnummer In"></div>
+                            </div>
+                        </div>
+                        <div class="quote-field">
+                            <div class="quote-field-label">E-mailadres <span class="quote-optional">(Optioneel)</span>
+                            </div>
+                            <div class="quote-input-wrap">
+                                <div class="quote-input" contenteditable="true"
+                                    data-placeholder="Voer Uw Email Adres In"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="quote-row">
+                        <div class="quote-field">
+                            <div class="quote-field-label">Type Dienst</div>
                             <div class="quote-input-wrap quote-select-wrap">
                                 <div class="quote-select" id="serviceTypeSelect">
-                                    <span class="quote-select-text">Select Service Type You Need</span>
+                                    <span class="quote-select-text">Selecteer het gewenste servicetype.</span>
                                     <svg class="quote-select-arrow" viewBox="0 0 24 24" fill="none"
                                         stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round">
@@ -770,33 +761,33 @@
                                     </svg>
                                 </div>
                                 <div class="quote-select-dropdown" id="serviceDropdown">
-                                    <div class="quote-select-option" data-value="object">Object Security</div>
-                                    <div class="quote-select-option" data-value="event">Event Security</div>
-                                    <div class="quote-select-option" data-value="personal">Personal Security</div>
-                                    <div class="quote-select-option" data-value="fire">Fire Watch</div>
-                                    <div class="quote-select-option" data-value="retail">Retail Surveillance</div>
-                                    <div class="quote-select-option" data-value="access">Access Control</div>
-                                    <div class="quote-select-option" data-value="patrol">Mobile Patrol</div>
-                                    <div class="quote-select-option" data-value="crowd">Crowd Management</div>
+                                    <div class="quote-select-option" data-value="object">Object Beveiliging</div>
+                                    <div class="quote-select-option" data-value="event">Evenementen Beveiliging</div>
+                                    <div class="quote-select-option" data-value="personal">Persoons Beveiliging</div>
+                                    <div class="quote-select-option" data-value="fire">Winkelsurveillance</div>
+                                    <div class="quote-select-option" data-value="retail">Horeca Beveiliging</div>
+                                    <div class="quote-select-option" data-value="access">Toegangscontrole</div>
+                                    <div class="quote-select-option" data-value="patrol">Brandwacht</div>
+                                    <div class="quote-select-option" data-value="crowd">Toezichthouders</div>
                                 </div>
                             </div>
                         </div>
                         <div class="quote-field">
-                            <div class="quote-field-label">Location</div>
+                            <div class="quote-field-label">Locatie</div>
                             <div class="quote-input-wrap">
                                 <div class="quote-input" contenteditable="true"
-                                    data-placeholder="Enter Your Address Here"></div>
+                                    data-placeholder="Voer Uw Adres In"></div>
                             </div>
                         </div>
                     </div>
 
                     <div class="quote-row">
                         <div class="quote-field quote-field--full">
-                            <div class="quote-field-label">Date / Period</div>
+                            <div class="quote-field-label">Datum / Periode</div>
                             <div class="quote-input-wrap quote-date-wrap">
                                 <div class="quote-date-toggle">
-                                    <span class="quote-date-tab active" data-type="single">Single Date</span>
-                                    <span class="quote-date-tab" data-type="range">Date Range</span>
+                                    <span class="quote-date-tab active" data-type="single">Enkele Datum</span>
+                                    <span class="quote-date-tab" data-type="range">Datumbereik</span>
                                 </div>
                                 <div class="quote-date-inputs">
                                     <div class="quote-date-single">
@@ -814,16 +805,16 @@
 
                     <div class="quote-row">
                         <div class="quote-field quote-field--full">
-                            <div class="quote-field-label">Additional Notes</div>
+                            <div class="quote-field-label">Aanvullende opmerkingen</div>
                             <div class="quote-input-wrap">
                                 <div class="quote-input quote-textarea" contenteditable="true"
-                                    data-placeholder="Enter Additional Details About Your Request..."></div>
+                                    data-placeholder="Voer Aanvullende Details In Over Uw Verzoek..."></div>
                             </div>
                         </div>
                     </div>
 
                     <div class="quote-submit-row">
-                        <div class="quote-submit-btn" id="quoteSubmitBtn">Send Request</div>
+                        <div class="quote-submit-btn" id="quoteSubmitBtn">Verzoek Verzenden</div>
                     </div>
 
                 </div>
@@ -855,8 +846,8 @@
                             </svg>
                         </div>
                         <div class="contact-info-text">
-                            <span class="contact-info-label">PHONE NUMBER</span>
-                            <span class="contact-info-value topic">0000000000000</span>
+                            <span class="contact-info-label">TELEFOON NUMMER</span>
+                            <span class="contact-info-value topic">+061 887 907 7</span>
                         </div>
                     </div>
 
@@ -871,7 +862,7 @@
                             </svg>
                         </div>
                         <div class="contact-info-text">
-                            <span class="contact-info-label">EMAIL ADDRESS</span>
+                            <span class="contact-info-label">E-MAILADRES</span>
                             <span class="contact-info-value topic">info@vjsecurity.nl</span>
                         </div>
                     </div>
@@ -887,8 +878,8 @@
                             </svg>
                         </div>
                         <div class="contact-info-text">
-                            <span class="contact-info-label">BUSINESS ADDRESS</span>
-                            <span class="contact-info-value topic">Netherlands</span>
+                            <span class="contact-info-label">ZAKELIJK ADRES</span>
+                            <span class="contact-info-value topic">Leonard Springerlaan 35, 9727 KB Groningen</span>
                         </div>
                     </div>
 
@@ -903,8 +894,8 @@
                             </svg>
                         </div>
                         <div class="contact-info-text">
-                            <span class="contact-info-label">AVAILABILITY</span>
-                            <span class="contact-info-value topic">7 Days A Week · 24/7 Operations</span>
+                            <span class="contact-info-label">BESCHIKBAARHEID</span>
+                            <span class="contact-info-value topic">7 Dagen Per Week · 24/7-Bedrijfsvoering</span>
                         </div>
                     </div>
 
@@ -921,14 +912,13 @@
                         </div>
                     </div>
 
-                    <h2 class="contact-info-title topic">Get in Touch<br>With Us</h2>
+                    <h2 class="contact-info-title topic">Neem contact met ons op<br>Met ons</h2>
 
                     <p class="contact-info-desc para">
-                        Have questions about our services or want to discuss your security needs? Our team is available
-                        7 days a week.
+                        Heeft u vragen over onze diensten of wilt u uw beveiligingsbehoeften bespreken? Ons team staat 7 dagen per week voor u klaar.
                     </p>
 
-                    <a href="#booking" class="contact-info-btn boldTopic">Request a Quote</a>
+                    <a href="#booking" class="contact-info-btn boldTopic">Offerte Aanvragen</a>
                 </div>
 
                 <!-- Inner bottom dark bar spanning full card width -->
@@ -960,9 +950,9 @@
                             <span class="faq-label-line"></span>
                         </div>
                     </div>
-                    <h2 class="faq-title topic">Frequently Asked Questions</h2>
-                    <p class="faq-desc para">Fill in the form and we'll prepare a tailored security proposal for your
-                        situation. No obligations - just a professional consultation.</p>
+                    <h2 class="faq-title topic">Veel Gestelde Vragen</h2>
+                    <p class="faq-desc para">Vul het formulier in en we bereiden een afgestemd beveiligingsvoorstel voor uw
+                        situatie. Geen verplichtingen - alleen een professionele consultatie.</p>
                 </div>
             </div>
 
@@ -972,7 +962,7 @@
                 <div class="faq-item active" data-faq>
                     <div class="faq-q">
                         <span class="faq-num boldTopic">01</span>
-                        <span class="faq-q-text topic">What areas do you cover in the Netherlands?</span>
+                        <span class="faq-q-text topic">Welke gebieden dekken jullie af in Nederland?</span>
                         <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="12" y1="5" x2="12" y2="19" />
@@ -980,16 +970,14 @@
                             </svg></span>
                     </div>
                     <div class="faq-a">
-                        <p class="para">We operate across multiple provinces including Groningen, Drenthe, Friesland, Overijssel, and
-                            North Holland. Contact us if your location isn't listed — we regularly extend our operations
-                            to new areas.</p>
+                        <p class="para">Wij zijn actief in meerdere provincies, waaronder Groningen, Drenthe, Friesland, Overijssel en Noord-Holland. Neem contact met ons op als uw locatie er niet bij staat – we breiden ons werkgebied regelmatig uit naar nieuwe regio's.</p>
                     </div>
                 </div>
 
                 <div class="faq-item" data-faq>
                     <div class="faq-q">
                         <span class="faq-num boldTopic">02</span>
-                        <span class="faq-q-text topic">Are your security officers licensed and certified?</span>
+                        <span class="faq-q-text topic">Zijn uw beveiligingsmedewerkers geautoriseerd en gecertificeerd?</span>
                         <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="12" y1="5" x2="12" y2="19" />
@@ -997,16 +985,14 @@
                             </svg></span>
                     </div>
                     <div class="faq-a">
-                        <p class="para">Yes. All our security personnel are fully trained, certified, and vetted. VJ Security
-                            Services operates under license number ND7924, fully compliant with the Wpbr (Wet
-                            particuliere beveiligingsorganisaties en recherchebureaus).</p>
+                        <p class="para">Ja. Al ons beveiligingspersoneel is volledig opgeleid, gecertificeerd en gescreend. VJ Security Services opereert onder licentienummer ND7924 en voldoet volledig aan de Wpbr (Wet particuliere beveiligingsorganisaties en recherchebureaus).</p>
                     </div>
                 </div>
 
                 <div class="faq-item" data-faq>
                     <div class="faq-q">
                         <span class="faq-num boldTopic">03</span>
-                        <span class="faq-q-text topic">How quickly can you deploy security personnel?</span>
+                        <span class="faq-q-text topic">Hoe snel kunt u beveiligingspersoneel inzetten?</span>
                         <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="12" y1="5" x2="12" y2="19" />
@@ -1014,16 +1000,14 @@
                             </svg></span>
                     </div>
                     <div class="faq-a">
-                        <p class="para">We aim to respond to all quote requests within 24 hours. Deployment timelines depend on the
-                            scope of the assignment, but we can accommodate both planned events and urgent security
-                            needs.</p>
+                        <p class="para">We streven ernaar om binnen 24 uur op alle offerteaanvragen te reageren. De implementatietijd is afhankelijk van de omvang van de opdracht, maar we kunnen zowel geplande evenementen als dringende beveiligingsbehoeften inwilligen.</p>
                     </div>
                 </div>
 
                 <div class="faq-item" data-faq>
                     <div class="faq-q">
                         <span class="faq-num boldTopic">04</span>
-                        <span class="faq-q-text topic">What types of events do you provide security for?</span>
+                        <span class="faq-q-text topic">Voor welke soorten evenementen biedt u beveiliging aan?</span>
                         <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="12" y1="5" x2="12" y2="19" />
@@ -1031,8 +1015,7 @@
                             </svg></span>
                     </div>
                     <div class="faq-a">
-                        <p class="para">We cover concerts, festivals, corporate events, private gatherings, and large public venues.
-                            Our teams are experienced in both crowd management and VIP protection for all event scales.
+                        <p class="para">Wij verzorgen de beveiliging van concerten, festivals, bedrijfsevenementen, privéfeesten en grote openbare locaties. Onze teams hebben ervaring met zowel crowdmanagement als VIP-beveiliging voor evenementen van elke omvang.
                         </p>
                     </div>
                 </div>
@@ -1040,7 +1023,7 @@
                 <div class="faq-item" data-faq>
                     <div class="faq-q">
                         <span class="faq-num boldTopic">05</span>
-                        <span class="faq-q-text topic">Do you offer 24/7 security services?</span>
+                        <span class="faq-q-text topic">Biedt u 24/7 beveiligingsservices aan?</span>
                         <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="12" y1="5" x2="12" y2="19" />
@@ -1048,15 +1031,14 @@
                             </svg></span>
                     </div>
                     <div class="faq-a">
-                        <p class="para">Yes. We operate 24 hours a day, 7 days a week, 365 days a year. Whether you need overnight
-                            object security or round-the-clock mobile patrols, we have you covered.</p>
+                        <p class="para">Ja. Wij werken 24 uur per dag, 7 dagen per week, 365 dagen per jaar. Of u nu een nachtbeveiliging nodig heeft of mobiele patrouilles op draai, wij hebben u dekking.</p>
                     </div>
                 </div>
 
                 <div class="faq-item" data-faq>
                     <div class="faq-q">
                         <span class="faq-num boldTopic">06</span>
-                        <span class="faq-q-text topic">How do I request a quote?</span>
+                        <span class="faq-q-text topic">Hoe vraag ik een offerte aan?</span>
                         <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="12" y1="5" x2="12" y2="19" />
@@ -1064,16 +1046,14 @@
                             </svg></span>
                     </div>
                     <div class="faq-a">
-                        <p class="para">Simply fill in our quote request form on this page with your details, service type, location
-                            and preferred date. We'll get back to you within 24 hours with a tailored proposal — no
-                            obligations.</p>
+                        <p class="para">Vul eenvoudig ons offerteaanvraagformulier op deze pagina in met uw gegevens, het type service, uw locatie en de gewenste datum. We nemen binnen 24 uur contact met u op met een vrijblijvend voorstel op maat.</p>
                     </div>
                 </div>
 
                 <div class="faq-item" data-faq>
                     <div class="faq-q">
                         <span class="faq-num boldTopic">07</span>
-                        <span class="faq-q-text topic">Is VJ Security Services insured?</span>
+                        <span class="faq-q-text topic">Is VJ Security Services verzekerd?</span>
                         <span class="faq-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="12" y1="5" x2="12" y2="19" />
@@ -1081,9 +1061,9 @@
                             </svg></span>
                     </div>
                     <div class="faq-a">
-                        <p class="para">Yes. We are fully licensed and insured, operating within the legal frameworks of the Dutch
-                            private security industry. Our registration number ND7924 confirms our compliance with all
-                            applicable regulations.</p>
+                        <p class="para">Ja. Wij zijn volledig gelicenseerd en verzekerd, en werken binnen de juridische kaders van de Nederlandse
+                            private security sector. Ons registratienummer ND7924 bevestigt onze naleving van alle
+                            toepasselijke regelgeving.</p>
                     </div>
                 </div>
 
@@ -1101,12 +1081,12 @@
             <div class="footer-cta-wrapper">
                 <div class="footer-cta-box">
                     <div class="footer-cta-content boldTopic">
-                        <h2>Get a free estimate today</h2>
+                        <h2>Vraag vandaag nog een gratis offerte aan</h2>
                     </div>
                     <div class="footer-cta-content-right">
-                        <p class="para">Have questions about our services or want to discuss your security needs? Our team is
-                            available 7 days a week.</p>
-                        <a href="#booking" class="footer-cta-btn boldTopic">Request Quote</a>
+                        <p class="para">Heeft u vragen over onze services of wilt u uw beveiligingsbehoeften bespreken? Ons team is
+                            beschikbaar 7 dagen per week.</p>
+                        <a href="#booking" class="footer-cta-btn boldTopic">Offerte Aanvragen</a>
                     </div>
                 </div>
             </div>
@@ -1131,8 +1111,7 @@
                             <img src="resources/footer/vj.png" class="navbar-logo">
                         </div>
                         <p class="footer-description para">
-                            Every security assignment begins with understanding. We take a structured, three-phase
-                            approach to every engagement - ensuring nothing is left to chance.
+                            Elke beveiligingsopdracht begint met inzicht. We hanteren een gestructureerde aanpak in drie fasen voor elke opdracht, zodat niets aan het toeval wordt overgelaten.
                         </p>
                         <div class="footer-social">
                             <a href="#" class="social-icon" aria-label="Facebook">
@@ -1158,21 +1137,21 @@
 
                     <!-- Column 2: Quick Links -->
                     <div class="footer-column">
-                        <h3 class="topic">Quick Links</h3>
+                        <h3 class="topic">Snelle links</h3>
                         <ul class="footer-links">
                             <li><a href="#home" class="boldTopic">Home</a></li>
-                            <li><a href="#services" class="boldTopic">Services</a></li>
-                            <li><a href="#about" class="boldTopic">About</a></li>
-                            <li><a href="#booking" class="boldTopic">Quote</a></li>
+                            <li><a href="#services" class="boldTopic">Diensten</a></li>
+                            <li><a href="#about" class="boldTopic">Over&nbsp;ons</a></li>
+                            <li><a href="#booking" class="boldTopic">Offerte</a></li>
                             <li><a href="#contact" class="boldTopic">Contact</a></li>
-                            <li><a href="#approach" class="boldTopic">Approach</a></li>
+                            <li><a href="#approach" class="boldTopic">Aanpak</a></li>
                             <li><a href="#faq" class="boldTopic">FaQ</a></li>
                         </ul>
                     </div>
 
                     <!-- Column 3: Services -->
                     <div class="footer-column">
-                        <h3 class="topic">Services</h3>
+                        <h3 class="topic">Diensten</h3>
                         <ul class="footer-links">
                             <li><a href="#" class="boldTopic">Object Security</a></li>
                             <li><a href="#" class="boldTopic">Fire Watch</a></li>
@@ -1185,34 +1164,34 @@
 
                     <!-- Column 4: Contact Info -->
                     <div class="footer-column">
-                        <h3 class="topic">Contact Info</h3>
+                        <h3 class="topic">Contactgegevens</h3>
                         <div class="contact-item">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path
                                     d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                             </svg>
-                            <span class="boldTopic">0000000000000</span>
+                            <span class="boldTopic">+061 887 907 7</span>
                         </div>
                         <div class="contact-item">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                                 <polyline points="22,6 12,13 2,6" />
                             </svg>
-                            <span class="boldTopic">[email protected]</span>
+                            <span class="boldTopic">info@vjsecurity.nl</span>
                         </div>
                         <div class="contact-item">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
                                 <circle cx="12" cy="10" r="3" />
                             </svg>
-                            <span class="boldTopic">Netherlands</span>
+                            <span class="boldTopic">Leonard Springerlaan 35, 9727 KB Groningen</span>
                         </div>
                         <div class="contact-item">
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <circle cx="12" cy="12" r="10" />
                                 <polyline points="12 6 12 12 16 14" />
                             </svg>
-                            <span class="boldTopic">24/7 — 365 days</span>
+                            <span class="boldTopic">24/7 — 365 dagen</span>
                         </div>
                     </div>
 
@@ -1229,10 +1208,10 @@
                             <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
                             <path d="M12 6v6l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
                         </svg> -->
-                        &copy;&nbsp;<script>document.write(new Date().getFullYear())</script>. All Rights Received.
+                        &copy;&nbsp;<script>document.write(new Date().getFullYear())</script>. Alle Rechten Voorbehouden.
                     </p>
                     <p class="developer topic">
-                        Design And Developed By <a href="#">Evon Technologies Software Solutions (PVT) Ltd.</a>
+                        Ontworpen En Ontwikkeld Door <a href="#">Evon Technologies Software Solutions (PVT) Ltd.</a>
                     </p>
                 </div>
             </div>
