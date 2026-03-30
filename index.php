@@ -14,6 +14,7 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animations.css">
+    <!-- <link rel="stylesheet" href="style-light.css"> -->
 
     <!-- Base target for links -->
     <base target="_blank">
