@@ -735,7 +735,7 @@
                             <div class="quote-field-label">Telefoonnummer</div>
                             <div class="quote-input-wrap">
                                 <div class="quote-input" contenteditable="true"
-                                    data-placeholder="Voer Uw Telefoonnummer In"></div>
+                                    data-placeholder="Voer Uw Telefoonnummer In" maxlength="16"></div>
                             </div>
                         </div>
                         <div class="quote-field">
@@ -1222,6 +1222,12 @@
     <!-- External JavaScript -->
     <script src="script.js"></script>
     <script src="animations.js"></script>
+
+    <!-- HEAD tag එකේ දාන්න -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<!-- OR ඔබගේ custom JS file එක include කරන්න -->
+<script src="booking.js"></script>
 
 </body>
 

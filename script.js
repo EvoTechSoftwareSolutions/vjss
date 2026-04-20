@@ -307,22 +307,40 @@ window.scrollToTop = scrollToTop;
     }
 
     // Submit button feedback
-    const submitBtn = document.getElementById('quoteSubmitBtn');
-    if (submitBtn) {
-        submitBtn.addEventListener('click', function () {
-            submitBtn.textContent = 'Request Sent ✓';
-            submitBtn.style.background = '#2a7a4b';
-            submitBtn.style.color = '#fff';
-            submitBtn.style.pointerEvents = 'none';
-            setTimeout(function () {
-                submitBtn.textContent = 'Send Request';
-                submitBtn.style.background = '';
-                submitBtn.style.color = '';
-                submitBtn.style.pointerEvents = '';
-            }, 3000);
-        });
-    }
+    // const submitBtn = document.getElementById('quoteSubmitBtn');
+    // if (submitBtn) {
+    //     submitBtn.addEventListener('click', function () {
+    //         submitBtn.textContent = 'Request Sent ✓';
+    //         submitBtn.style.background = '#2a7a4b';
+    //         submitBtn.style.color = '#fff';
+    //         submitBtn.style.pointerEvents = 'none';
+    //         setTimeout(function () {
+    //             submitBtn.textContent = 'Send Request';
+    //             submitBtn.style.background = '';
+    //             submitBtn.style.color = '';
+    //             submitBtn.style.pointerEvents = '';
+    //         }, 3000);
+    //     });
+    // }
 })();
+
+//mobile field max characters
+const phoneField = document.querySelector('.quote-row:nth-child(2) .quote-field:nth-child(1) .quote-input');
+if (phoneField) {
+    phoneField.addEventListener('input', function () {
+        if (this.innerText.length > 16) {
+            this.innerText = this.innerText.slice(0, 16);
+            // cursor end එකට දාන්න
+            const range = document.createRange();
+            const sel = window.getSelection();
+            range.selectNodeContents(this);
+            range.collapse(false);
+            sel.removeAllRanges();
+            sel.addRange(range);
+        }
+    });
+}
+
 
 
 /* ============================================

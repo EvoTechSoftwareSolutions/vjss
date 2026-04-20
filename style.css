@@ -4642,3 +4642,62 @@ background: linear-gradient(180deg, rgba(5, 14, 23, 1) 0%, rgba(11, 34, 56, 1) 1
 
 
 
+/* Toast Animations */
+@keyframes slideInRight {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideOutRight {
+    from { transform: translateX(0); opacity: 1; }
+    to { transform: translateX(100%); opacity: 0; }
+}
+
+/* Submit Button Loading State */
+.quote-submit-btn.disable {
+    pointer-events: none;
+    opacity: 0.6;
+    position: relative;
+}
+
+.quote-submit-btn.disable::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ffffff;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* Contenteditable Placeholder Styles */
+/* .quote-input {
+    min-height: 20px;
+    outline: none;
+} */
+
+.quote-input:empty:before {
+    content: attr(data-placeholder);
+    /* color: #999;
+    font-style: italic; */
+    pointer-events: none;
+}
+
+/* Success/Error states for inputs */
+.quote-field.error .quote-input-wrap {
+    border-color: #e94560;
+    box-shadow: 0 0 0 3px rgba(233, 69, 96, 0.1);
+}
+
+.quote-field.success .quote-input-wrap {
+    border-color: #28a745;
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.1);
+}
