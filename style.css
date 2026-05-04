@@ -339,16 +339,41 @@ body {
     overflow: hidden;
 }
 
-.hero-bg {
+/* .hero-bg {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-image: url('resources/hero/christiano-vj.jpg');
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     z-index: 0;
+} */
+
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.hero-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left center;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .hero-bg img {
+        object-fit: cover;
+        object-position: 20% center;
+    }
 }
 
 /* .hero-overlay {

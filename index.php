@@ -102,7 +102,9 @@
 
             <!-- Hero Section -->
             <section class="hero" id="home">
-                <div class="hero-bg"></div>
+                <div class="hero-bg">
+    <img src="resources/hero/christiano-vj.jpg" alt="">
+</div>
                 <div class="hero-overlay"></div>
                 <div class="hero-grid-overlay"></div>
 
